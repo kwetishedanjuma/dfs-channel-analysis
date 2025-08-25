@@ -7,7 +7,7 @@ Analysis of the global DFS database (Hartley et al. 2010a) for study site select
 - **Radial distances**: 30-704 km (mean: 86.5 km, median: 52.4 km)
 - **Analysis period**: Site selection for multi-climatic DFS study
 
-## Categorisation Framework
+## Categorisation Framework (how the dataset was organised)
 
 ### Tectonic Settings (5 categories)
 - Compressional
@@ -23,24 +23,24 @@ Analysis of the global DFS database (Hartley et al. 2010a) for study site select
 - Subtropical  
 - Tropical
 
-## Selection Criteria
+### Selection Criteria (how the framework was applied)
 1. **Size range**: 30-70 km (median size representation)
 2. **Tectonic focus**: Foreland basin environments
 3. **Climate diversity**: Representation across all climatic regimes
 4. **Data quality**: Minimal anthropogenic modifications
 
-## Data Quality Requirements
+### Data Quality Requirements (additional filters)
 - Minimal anthropogenic modifications
 - Cloud-free Sentinel-2 imagery availability
 
-## Selected Systems
+### Selected Systems (results)
 - Río Fragua Chorroso (Colombia, tropical)
 - Canning (Alaska, polar)
 - Nabesna (Alaska, continental)
 - Brahmaputra tributary (India, subtropical)
 - Unnamed system (Iran, dryland)
 
-## Outputs
+### Outputs (deliverables)
 - Figure 1A: Tectonic setting distribution
 - Figure 1B: Climatic regime distribution
 - Site selection justification
