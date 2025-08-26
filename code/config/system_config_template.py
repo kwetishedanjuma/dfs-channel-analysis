@@ -166,29 +166,23 @@ PYTHON_REQUIREMENTS = {
     'scienceplots': 'colorblind-friendly visualization (Garrett 2021)',
 }
 
-# Google Earth Engine workflows
-GEE_PROCESSING = {
-    'srtm_arcticdem_download': {
-        'purpose': 'Download elevation data (SRTM/ArcticDEM)',
+# Google Earth Engine data acquisition utilities
+GEE_UTILITIES = {
+    'elevation_download': {
         'script': 'gee_elevation_download.js',
-        'output': 'elevation DEMs for profile extraction'
+        'purpose': 'Download elevation data for profile extraction',
+        'data_sources': ['SRTM', 'ArcticDEM'],
+        'output_format': 'GeoTIFF',
+        'resolution': '30m (SRTM), 2m (ArcticDEM)',
+        'use_case': 'All systems - required for channel profile analysis'
     },
-    'full_spatial_coverage': {
-        'purpose': 'Download complete Sentinel-2 image tiles',
-        'use_case': 'When standard tiles lack full spatial coverage (e.g., Brahmaputra DFS)',
-        'script': 'gee_sentinel2_complete_coverage.js',
-        'output': 'complete satellite imagery'
-    },
-    'automated_classification': {
-        'purpose': 'Automated classification of environment types',
-        'features': [
-            'channel_belt_delineation',
-            'wetted_channel_detection', 
-            'vegetated_bars_classification',
-            'unvegetated_bars_classification'
-        ],
-        'script': 'gee_automated_environment_classification.js',
-        'output': 'classified environment polygons',
-        'note': 'For comparison paper: automated vs manual (ArcGIS) approach'
+    'complete_spatial_coverage': {
+        'script': 'gee_sentinel2_complete_coverage.js', 
+        'purpose': 'Ensure complete Sentinel-2 image coverage',
+        'data_source': 'Sentinel-2 Surface Reflectance',
+        'output_format': 'GeoTIFF',
+        'use_case': 'When standard downloads lack full spatial coverage (e.g., Brahmaputra DFS)',
+        'cloud_filter': '<10%',
+        'temporal_filter': 'Single date acquisition per system'
     }
 }
