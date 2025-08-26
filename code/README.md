@@ -9,7 +9,7 @@ Analysis code for DFS channel characteristics study.
 - `config/` - System-specific configuration files
 
 ## Workflow
-- Database analysis selects five representative systems
+- 'Database analysis' selects five representative systems
 - ArcGIS tools extract elevation profiles and channel measurements
 - Statistical analysis processes all systems using unified methodology
 4. Configuration files specify data paths and parameters per system
