@@ -1,1 +1,1 @@
-common functions used across multiple analyses (like statistical functions, plotting utilities, data processing functions).
+Common functions and utilities used across all systems (like statistical functions, plotting utilities, data processing functions).
