@@ -40,12 +40,14 @@ SCALES = {
     'reach': 'continuous_2.5_percent_segments'  # 90% coverage, excludes first/last 2.5%
 }
 
-# CROSS-SECTION SCALE MEASUREMENTS
+# CROSS-SECTION SCALE MEASUREMENTS - data collection parameters
 CROSS_SECTION_MEASUREMENTS = { # Measurements taken perpendicular to flow direction at regular intervals
-    'channel_belt_width_km': True,    # total width of active channel belt
-    'active_channel_width_km': True,  # wetted channel or dry riverbed width
-    'channel_belt_active_ratio': True, # ratio of channel belt to active channel widths ratios
-    'spacing_interval': 5.0  # % of system length between cross-sections
+    'channel_belt_width_km': True,                # total width of active channel belt
+    'active_channel_width_km': True,              # wetted channel or dry riverbed width
+    'channel_belt_active_channel_ratio': True,    # ratio of channel belt to active channel widths ratios
+    'spacing_interval': 5.0                       # % of system length between cross-sections
+    'units': 'kilometers',                        # measurement units
+    'perpendicular_to_flow': True                 # measurements taken across flow direction
 }
 
 # ENVIRONMENTAL AREA ANALYSIS - area measurements (km²) calculated at system, domain, and reach scales
@@ -57,14 +59,136 @@ ENVIRONMENTAL_TYPES = {
     'bar_complex': True          # combined vegetated + unvegetated bars
 }
 
-# Analysis workflows
+# STATISTICAL ANALYSIS PARAMETERS
+## Trend analysis settings
+TREND_ANALYSIS = {
+    'method': 'OLS',                    # Ordinary Least Squares regression for trend analysis
+    'significance_level': 0.05,         # p-value threshold for statistical significance
+    'coefficient_of_variation': True,   # calculate CV for variability assessment
+    'scales': ['system', 'domain', 'reach']  # spatial scales for OLS analysis
+}
+
+## Profile smoothing parameters
+PROFILE_SMOOTHING = {
+    'method': 'LOWESS',                # LOWESS regression (Cleveland 1979; Cleveland and Devlin 1988)
+    'frac': 0.3,                       # fraction of data used for smoothing
+    'it': 3,                           # number of iterations
+    'apply_to_profiles': True          # smooth noise in long profiles
+}
+
+## Cross-section trend analysis - how to analyze the measurements
+CROSS_SECTION_ANALYSIS = {
+    'trend_method': 'OLS',                      # Ordinary Least Squares regression
+    'spatial_scales': ['system', 'domain', 'reach'],  # analysis scales
+    'assess_downstream_changes': True,          # test for downstream trends
+    'significance_level': 0.05,                # p-value threshold
+    'coefficient_of_variation': True           # calculate CV for variability assessment
+}
+
+# VISUALISATION SETTINGS
+PLOTTING = {
+    'style': 'science',            # matplotlib style (requires scienceplots)
+    'figure_size': (12, 8),        # default figure dimensions
+    'dpi': 300,                    # resolution for saved figures
+    'color_palette': 'paul_tol',   # Paul Tol's Notes colour palette for colorblind accessibility
+    'font_size': 12,               # base font size
+    'line_width': 2.0              # default line width
+}
+
+# ANALYSIS WORKFLOW NOTEBOOKS
 ANALYSIS_NOTEBOOKS = {
     'main_analysis': f"{SYSTEM_ID}_dfs_analysis.ipynb",
-    'database_analysis': "dfs_database_selection.ipynb"  # separate notebook
+    'database_analysis': "dfs_database_selection.ipynb"  # separate comparative notebook
 }
 
 # Output settings
 OUTPUT_FOLDER = f"results/{SYSTEM_ID}/"
 FIGURE_DPI = 300
-EXCEL_OUTPUT = True
-GRADIENT_ANALYSIS = True  # from channel profile extraction
+FIGURE_FORMAT = 'png'           # or 'pdf', 'svg', 'tiff'
+EXCEL_OUTPUT = True             # export data tables to Excel
+CSV_OUTPUT = True               # export data tables to CSV
+SAVE_INTERMEDIATE = False       # save intermediate processing steps
+
+# SYSTEM-SPECIFIC DATA DETAILS
+## Five study systems with acquisition details
+STUDY_SYSTEMS = {
+    'colombia06': {
+        'name': 'Río Fragua Chorroso',
+        'climate': 'Tropical',
+        'length_km': 30.0,
+        'apex_coords': (1.332278, -75.983631),  # 01°19'54.20"N, 75°59'01.07"W
+        'termination_type': 'Tributary',
+        'acquisition_date': '2020-11-09'
+    },
+    'alaska04': {
+        'name': 'Canning',
+        'climate': 'Polar', 
+        'length_km': 36.9,
+        'apex_coords': (69.850728, -146.461167),  # 69°51'02.62"N, 146°27'40.20"W
+        'termination_type': 'Marine',
+        'acquisition_date': '2021-07-19'
+    },
+    'alaska13': {
+        'name': 'Nabesna',
+        'climate': 'Continental',
+        'length_km': 35.4, 
+        'apex_coords': (62.792194, -142.171167),  # 62°47'31.90"N, 142°10'13.80"W
+        'termination_type': 'Axial',
+        'acquisition_date': '2019-09-08'
+    },
+    'india13': {
+        'name': 'Brahmaputra',
+        'climate': 'Subtropical',
+        'length_km': 43.3,
+        'apex_coords': (28.069903, 95.354536),  # 28°04'11.65"N, 95°21'16.33"E
+        'termination_type': 'Tributary', 
+        'acquisition_date': '2020-12-31',
+        'special_processing': 'Google Earth Engine workflow for complete coverage'
+    },
+    'iran21': {
+        'name': 'Unnamed Iranian DFS',
+        'climate': 'Drylands',
+        'length_km': 30.9,
+        'apex_coords': (31.966761, 58.401153),  # 31°58'00.34"N, 58°24'04.15"E
+        'termination_type': 'Playa',
+        'acquisition_date': '2021-10-15',
+        'special_note': 'Dry when imaged - uses dry riverbed category instead of wetted channels'
+    }
+}
+
+# SOFTWARE AND DEPENDENCIES
+## Python analysis environment
+PYTHON_REQUIREMENTS = {
+    'jupyter': 'Jupyter Notebook environment',
+    'pandas': 'data manipulation and analysis',
+    'numpy': 'numerical computing (Harris et al. 2020)', 
+    'matplotlib': 'plotting and visualization (Hunter 2007)',
+    'scienceplots': 'colorblind-friendly visualization (Garrett 2021)',
+}
+
+# Google Earth Engine workflows
+GEE_PROCESSING = {
+    'srtm_arcticdem_download': {
+        'purpose': 'Download elevation data (SRTM/ArcticDEM)',
+        'script': 'gee_elevation_download.js',
+        'output': 'elevation DEMs for profile extraction'
+    },
+    'full_spatial_coverage': {
+        'purpose': 'Download complete Sentinel-2 image tiles',
+        'use_case': 'When standard tiles lack full spatial coverage (e.g., Brahmaputra DFS)',
+        'script': 'gee_sentinel2_complete_coverage.js',
+        'output': 'complete satellite imagery'
+    },
+    'automated_classification': {
+        'purpose': 'Automated classification of environment types',
+        'features': [
+            'channel_belt_delineation',
+            'wetted_channel_detection', 
+            'vegetated_bars_classification',
+            'unvegetated_bars_classification'
+        ],
+        'script': 'gee_automated_environment_classification.js',
+        'output': 'classified environment polygons',
+        'note': 'For comparison paper: automated vs manual (ArcGIS) approach'
+    }
+}
