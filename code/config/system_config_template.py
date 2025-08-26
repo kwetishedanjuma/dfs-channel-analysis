@@ -3,35 +3,26 @@ Configuration template for DFS analysis
 Reflects the multi-scale measurement and analysis approach
 """
 
-# System identification
+# SYSTEM IDENTIFICATION
 SYSTEM_NAME = "System Name"
 SYSTEM_ID = "system_id"  
 CLIMATE_TYPE = "climate_zone" # e.g., "tropical", "polar", "continental", "subtropical", "dryland"
 LOCATION = "Country/Region"
 
-# Data file paths
+# DATA FILE PATHS
 DATA_ROOT = "/path/to/data/"
 SATELLITE_IMAGE = "sentinel2_image.tif"
 CHANNEL_CENTERLINE = "centerline.shp" 
 ELEVATION_DEM = "elevation.tif"
 DIGITISED_FEATURES = "channel_belt_active_bars.shp"
 
-# =============================================================================
-# SYSTEM GEOMETRY
-# =============================================================================
-# Coordinates in decimal degrees (WGS84)
+# SYSTEM GEOMETRY - Coordinates in decimal degrees (WGS84)
 APEX_COORDINATES = (lat, lon)  # upstream apex point
 TOE_COORDINATES = (lat, lon)   # downstream toe point
 SYSTEM_LENGTH_KM = 0.0         # total system length
 POINT_SPACING_M = 100          # distance between measurement points along centerlines
 
-# Analysis parameters
-APEX_COORDINATES = (lat, lon)  # decimal degrees 
-TOE_COORDINATES = (lat, lon)   # decimal degrees
-SYSTEM_LENGTH_KM = 0.0
-POINT_SPACING_M = 100  # distance between measurement points
-
-# Multi-scale analysis parameters
+# MULTI-SCALE ANALYSIS PARAMETERS
 CROSS_SECTION_INTERVAL = 5.0  # % of system length for width measurements
 REACH_SEGMENT_SIZE = 2.5      # % of cross-section interval, excludes first/last 2.5% leaving 90% analysed
 SYSTEM_COVERAGE = 100         # % of entire system areas analysed
@@ -41,23 +32,23 @@ DOMAIN_SEGMENT_SIZE = { # Domain boundaries (dividing total length into thirds)
     'DISTAL_DOMAIN': '66.7-100%'
 }
 
-# Analysis scales
+# ANALYSIS SCALES
 SCALES = {
-    'system': 'entire_system_analysis',
+    'system': 'entire_system_analysis', # whole DFS
     'domain': ['proximal', 'medial', 'distal'],  # dividing total length into thirds
     'cross_section': 'every_5_percent_downstream',  # measured in km for trend analysis
     'reach': 'continuous_2.5_percent_segments'  # 90% coverage, excludes first/last 2.5%
 }
 
-# Cross-section scale measurements (km)
-CROSS_SECTION_MEASUREMENTS = {
-    'channel_belt_width_km': True,
-    'active_channel_width_km': True,  # wetted channel or dry riverbed
-    'channel_belt_active_ratio': True,
-    'spacing_interval': 5.0  # % of system length
+# CROSS-SECTION SCALE MEASUREMENTS
+CROSS_SECTION_MEASUREMENTS = { # Measurements taken perpendicular to flow direction at regular intervals
+    'channel_belt_width_km': True,    # total width of active channel belt
+    'active_channel_width_km': True,  # wetted channel or dry riverbed width
+    'channel_belt_active_ratio': True, # ratio of channel belt to active channel widths ratios
+    'spacing_interval': 5.0  # % of system length between cross-sections
 }
 
-# Environmental area analysis - area measurements (km²) calculated at system, domain, and reach scales
+# ENVIRONMENTAL AREA ANALYSIS - area measurements (km²) calculated at system, domain, and reach scales
 ENVIRONMENTAL_TYPES = {
     'wetted_channel': True,      # active flowing channels
     'dry_riverbed': False,       # True only for Unnamed Iranian DFS
