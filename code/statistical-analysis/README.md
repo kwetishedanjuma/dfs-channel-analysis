@@ -16,7 +16,7 @@ Main Python scripts for analysing channel geometry, environmental distributions,
 
 ## Dependencies
 - Python 3.x
-- pandas, numpy, matplotlib, scipy
+- pandas, numpy, matplotlib
 - scienceplots for publication-quality figures
 
 ## Workflow
