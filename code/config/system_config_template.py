@@ -3,9 +3,6 @@ Configuration template for DFS analysis
 Reflects the multi-scale measurement and analysis approach
 """
 
-# =============================================================================
-# SYSTEM IDENTIFICATION
-# =============================================================================
 # System identification
 SYSTEM_NAME = "System Name"
 SYSTEM_ID = "system_id"  
@@ -51,13 +48,13 @@ CROSS_SECTION_MEASUREMENTS = {
     'spacing_interval': 5.0  # % of system length
 }
 
-# Environmental area analysis (km²) - system, domain, reach scales
+# Environmental area analysis - area measurements (km²) calculated at system, domain, and reach scales
 ENVIRONMENTAL_TYPES = {
     'wetted_channel': True,      # active flowing channels
     'dry_riverbed': False,       # True only for Unnamed Iranian DFS
-    'vegetated_bars': True,      # vegetation-covered bars  
-    'unvegetated_bars': True,    # sediment bars
-    'bar_complex': True          # combined vegetated + unvegetated
+    'vegetated_bars': True,      # vegetation-covered bars and islands
+    'unvegetated_bars': True,    # bare sediment bars
+    'bar_complex': True          # combined vegetated + unvegetated bars
 }
 
 # Analysis workflows
