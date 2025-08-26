@@ -6,7 +6,7 @@ Reflects the multi-scale measurement and analysis approach
 # System identification
 SYSTEM_NAME = "System Name"
 SYSTEM_ID = "system_id"  
-CLIMATE_TYPE = "climate_zone"
+CLIMATE_TYPE = "climate_zone" # e.g., "tropical", "polar", "continental", "subtropical", "dryland"
 LOCATION = "Country/Region"
 
 # Data file paths
@@ -15,6 +15,15 @@ SATELLITE_IMAGE = "sentinel2_image.tif"
 CHANNEL_CENTERLINE = "centerline.shp" 
 ELEVATION_DEM = "elevation.tif"
 DIGITISED_FEATURES = "channel_belt_active_bars.shp"
+
+# =============================================================================
+# SYSTEM GEOMETRY
+# =============================================================================
+# Coordinates in decimal degrees (WGS84)
+APEX_COORDINATES = (lat, lon)  # upstream apex point
+TOE_COORDINATES = (lat, lon)   # downstream toe point
+SYSTEM_LENGTH_KM = 0.0         # total system length
+POINT_SPACING_M = 100          # distance between measurement points along centerlines
 
 # Analysis parameters
 APEX_COORDINATES = (lat, lon)  # decimal degrees 
