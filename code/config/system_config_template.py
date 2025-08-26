@@ -3,6 +3,9 @@ Configuration template for DFS analysis
 Reflects the multi-scale measurement and analysis approach
 """
 
+# =============================================================================
+# SYSTEM IDENTIFICATION
+# =============================================================================
 # System identification
 SYSTEM_NAME = "System Name"
 SYSTEM_ID = "system_id"  
