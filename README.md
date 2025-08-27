@@ -11,7 +11,7 @@ This repository contains the complete analytical workflow for studying channel g
 
 Analysis of five representative DFS across different climate zones:
 
-| System ID | System Name | Climate Zone | Length (km) | Location |
+| System ID | System Name | Climate Zone | Length (km) | Location | 
 |-----------|------|--------------|-------------|----------|
 | Colombia06 | Río Fragua Chorroso | Tropical | 30.0 | Colombia |
 | Alaska04 | Canning | Polar | 36.9 | Alaska, USA |
@@ -23,7 +23,7 @@ Analysis of five representative DFS across different climate zones:
 
 ### Multi-Scale Analysis Framework
 - **System Scale**: Entire DFS analysis (30-43 km length)
-- **Domain Scale**: Proximal (0-33.3%), Medial (33.3-66.7%), Distal (66.7-100%)
+- **Domain Scale**: Proximal (0-33.3%), Medial (33.3-66.7%), Distal (66.7-100%) didvided equallt into thirds
 - **Cross-Section Scale**: Transverse measurements every 5% of system length
 - **Reach Scale**: Continuous 2.5% segments with 90% system coverage
 
