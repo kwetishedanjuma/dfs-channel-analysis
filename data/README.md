@@ -57,6 +57,31 @@ data/
     └── statistics/                    # Calculated metrics
 ```
 
+## Data Sources
+
+- **Global_DFS_database.kmz**  
+  Google Earth KMZ file associated with:  
+  Hartley, A.J., Weissmann, G.S., Nichols, G.J., Warwick, G.L. (2010).  
+  "Large distributive fluvial systems: characteristics, distribution, and controls on development."  
+  *Journal of Sedimentary Research*, 80(2), 167–183.  
+  This file contains locations (apex and toe coordinates) of documented distributive fluvial systems.  
+  You can load this file in Google Earth or compatible GIS software to visualize system locations.
+
+### How to Use
+
+- Open `Global_DFS_database.kmz` in Google Earth or GIS software.
+- Use the coordinate reference system (CRS) for apex and toe to locate each distributive system.
+- Once you identify a system of interest, download corresponding satellite imagery from USGS EarthExplorer, Copernicus Open Access Hub, or other archives.
+- This workflow allows you to combine published system locations with up-to-date remote sensing data for further analysis.
+
+- **hartley_et_al_modern_dfs.xlsx**  
+  Associated with:  
+  Hartley, A.J., Weissmann, G.S., Nichols, G.J., Warwick, G.L. (2010).  
+  "Large distributive fluvial systems: characteristics, distribution, and controls on development."  
+  *Journal of Sedimentary Research*, 80(2), 167–183. SEPM Society for Sedimentary Geology.
+
+  
+
 ## Data Acquisition
 
 ### Satellite Imagery
