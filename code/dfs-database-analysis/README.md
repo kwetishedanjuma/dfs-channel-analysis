@@ -14,18 +14,18 @@ Analysis of the global distributive fluvial systems database (Hartley et al. 201
 The Hartley et al. database organizes distributive fluvial systems using two primary classification schemes:
 
 ### Tectonic Settings (5 categories)
-- **Compressional**: Convergent margin settings
-- **Cratonic**: Stable continental interior basins
-- **Extensional**: Rift and passive margin environments
-- **Foreland**: Flexural basins adjacent to mountain belts (54% of database - prioritised)
-- **Strike-slip**: Transform-related basins
+- Compressional
+- Cratonic  
+- Extensional
+- Foreland (54% of database - prioritised)
+- Strike-slip
 
 ### Climatic Regimes (5 categories)
-- **Continental**: Mid-latitude interior climates
-- **Drylands**: Arid and semi-arid environments
-- **Polar**: High-latitude Arctic/Antarctic conditions
-- **Subtropical**: Warm, seasonally dry climates
-- **Tropical**: Equatorial humid climates
+- Continental
+- Drylands
+- Polar
+- Subtropical  
+- Tropical
 
 ## Selection Criteria
 
