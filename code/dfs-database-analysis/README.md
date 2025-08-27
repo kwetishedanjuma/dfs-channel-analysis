@@ -11,7 +11,7 @@ Analysis of the global distributive fluvial systems database (Hartley et al. 201
 
 ## Categorisation Framework
 
-The Hartley et al. database organizes distributive fluvial systems using two primary classification schemes:
+The Hartley et al. database organises DFSs using two primary classification schemes:
 
 ### Tectonic Settings (5 categories)
 - Compressional
