@@ -11,13 +11,13 @@ This repository contains the complete analytical workflow for studying channel g
 
 Analysis of five representative DFS across different climate zones:
 
-| System ID | Name | Climate Zone | Length (km) | Location |
+| System ID | System Name | Climate Zone | Length (km) | Location |
 |-----------|------|--------------|-------------|----------|
-| colombia06 | Río Fragua Chorroso | Tropical | 30.0 | Colombia |
-| alaska04 | Canning River | Polar | 36.9 | Alaska, USA |
-| alaska13 | Nabesna River | Continental | 35.4 | Alaska, USA |
-| india13 | Brahmaputra River | Subtropical | 43.3 | India|
-| iran21 | Unnamed Iranian DFS | Drylands | 30.9 | Iran |
+| Colombia06 | Río Fragua Chorroso | Tropical | 30.0 | Colombia |
+| Alaska04 | Canning | Polar | 36.9 | Alaska, USA |
+| Alaska13 | Nabesna | Continental | 35.4 | Alaska, USA |
+| India13 | Brahmaputra | Subtropical | 43.3 | India|
+| Iran21 | Unnamed| Drylands | 30.9 | Iran |
 
 ## Methodology
 
