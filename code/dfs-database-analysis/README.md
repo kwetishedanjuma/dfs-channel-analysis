@@ -149,7 +149,7 @@ Analysis generates the following deliverables:
 
 This analysis supports:
 - **Systematic site selection** for multi-climatic DFS studies
-- **Global DFS characterization** using the Hartley et al. database
+- **Global DFS characterisation** using the Hartley et al. database
 - **Climate-tectonic framework** for distributive fluvial system analysis
 - **Reproducible methodology** for similar comparative studies
 
