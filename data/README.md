@@ -77,14 +77,6 @@ data/
 - Once you identify a system of interest, download corresponding satellite imagery from USGS EarthExplorer, Copernicus Open Access Hub, or other archives.
 - This workflow allows you to combine published system locations with up-to-date remote sensing data for further analysis.
 
-- **hartley_et_al_modern_dfs.xlsx**  
-  Associated with:  
-  Hartley, A.J., Weissmann, G.S., Nichols, G.J., Warwick, G.L. (2010).  
-  "Large distributive fluvial systems: characteristics, distribution, and controls on development."  
-  *Journal of Sedimentary Research*, 80(2), 167–183. SEPM Society for Sedimentary Geology.
-
-  
-
 ## Data Acquisition
 
 ### Satellite Imagery
