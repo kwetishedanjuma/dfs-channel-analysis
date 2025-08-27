@@ -5,8 +5,7 @@
 
 ## Overview
 
-This repository contains the complete analytical workflow for quantitative analysis of characteristics of distributive fluvial systems
-studying channel geometry and environmental distributions in distributive fluvial systems (DFSs) across five major climate zones. The research employs manual digitization techniques with ArcGIS Pro combined with multi-scale statistical analysis to characterize downstream trends in DFS morphology.
+This repository contains the complete analytical workflow for studying channel geometry and environmental distributions in distributive fluvial systems (DFSs) across five major climate zones. The research employs manual digitisation techniques with ArcGIS Pro combined with multi-scale statistical analysis to characterise downstream trends in DFS morphology.
 
 ## Study Systems
 
