@@ -24,10 +24,10 @@ Analysis of the global DFS database (Hartley et al. 2010a) for study site select
 - Tropical
 
 ### Selection Criteria (how the framework was applied)
-- `**Size range**:` 30-70 km (median size representation)
-- `**Tectonic focus**:` Foreland basin environments
-- `**Climate diversity**:` Representation across all climatic regimes
-- `**Data quality**:` Minimal anthropogenic modifications
+- `Size range:` 30-70 km (median size representation)
+- `Tectonic focus:` Foreland basin environments
+- `Climate diversity:` Representation across all climatic regimes
+- `Data quality:` Minimal anthropogenic modifications
 
 ### Data Quality Requirements (additional filters)
 - Minimal anthropogenic modifications
