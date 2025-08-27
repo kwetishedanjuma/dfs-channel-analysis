@@ -111,7 +111,7 @@ pip install pandas numpy matplotlib scienceplots seaborn
 
 ## Usage Notes
 
-### Spatial Visualization
+### Spatial Visualisation
 - KMZ file opens in Google Earth Pro for global system overview
 - Database provides global context for selected study systems
 - Download satellite imagery from USGS EarthExplorer for detailed analysis
