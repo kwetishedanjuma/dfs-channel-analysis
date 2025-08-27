@@ -47,10 +47,6 @@ data/
 │       ├── brahmaputra_river_environments.shp
 │       └── unnamed_iranian_dfs_environments.shp
 │
-├── reference-data/                    # External datasets
-│   ├── hartley_et_al_modern_dfs.xlsx # Modern DFS database
-│   └── study_system_coordinates.csv   # System apex/toe coordinates
-│
 └── processed/                         # Intermediate processing files
     ├── profile-data/                  # Extracted elevation profiles
     ├── measurements/                  # Cross-section measurements
