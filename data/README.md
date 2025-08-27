@@ -58,16 +58,15 @@ data/
 ```
 
 ## Data Sources
-@article{hartley2010large,
-  title={Large distributive fluvial systems: characteristics, distribution, and controls on development},
-  author={Hartley, Adrian J and Weissmann, Gary S and Nichols, Gary J and Warwick, Gail L},
-  journal={Journal of Sedimentary Research},
-  volume={80},
-  number={2},
-  pages={167--183},
-  year={2010},
-  publisher={SEPM Society for Sedimentary Geology}
-}
+
+- **hartley_et_al_modern_dfs.xlsx**  
+  Associated with:  
+  Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183.
+
+- **Global_DFS_database.kmz**  
+  Google Earth KMZ file for spatial visualization of distributive fluvial systems.  
+  Associated with: Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183.
+  
   This file contains locations (apex and toe coordinates) of documented distributive fluvial systems.  
   You can load this file in Google Earth or compatible GIS software to visualize system locations.
 
