@@ -5,7 +5,8 @@
 
 ## Overview
 
-This repository contains the complete analytical workflow for studying channel geometry and environmental distributions in distributive fluvial systems (DFS) across five major climate zones. The research employs manual digitization techniques with ArcGIS Pro combined with multi-scale statistical analysis to characterize downstream trends in DFS morphology.
+This repository contains the complete analytical workflow for quantitative analysis of characteristics of distributive fluvial systems
+studying channel geometry and environmental distributions in distributive fluvial systems (DFSs) across five major climate zones. The research employs manual digitization techniques with ArcGIS Pro combined with multi-scale statistical analysis to characterize downstream trends in DFS morphology.
 
 ## Study Systems
 
@@ -14,10 +15,10 @@ Analysis of five representative DFS across different climate zones:
 | System ID | Name | Climate Zone | Length (km) | Location |
 |-----------|------|--------------|-------------|----------|
 | colombia06 | Río Fragua Chorroso | Tropical | 30.0 | Colombia |
-| iran21 | Unnamed Iranian DFS | Drylands | 30.9 | Iran |
-| alaska13 | Nabesna River | Continental | 35.4 | Alaska, USA |
 | alaska04 | Canning River | Polar | 36.9 | Alaska, USA |
-| india13 | Brahmaputra River | Subtropical | 43.3 | India/Bangladesh |
+| alaska13 | Nabesna River | Continental | 35.4 | Alaska, USA |
+| india13 | Brahmaputra River | Subtropical | 43.3 | India|
+| iran21 | Unnamed Iranian DFS | Drylands | 30.9 | Iran |
 
 ## Methodology
 
@@ -30,7 +31,7 @@ Analysis of five representative DFS across different climate zones:
 ### Data Sources
 - **Satellite Imagery**: Sentinel-2 Surface Reflectance (cloud cover <10%)
 - **Elevation Data**: SRTM (30m) and ArcticDEM (2m) via Google Earth Engine
-- **Manual Digitization**: ArcGIS Pro for channel belt and environmental feature mapping
+- **Manual Digitisation**: ArcGIS Pro for channel belt and environmental types (e.g., channel belt, wetted channel/dry riverbed, vegetated and unvegetated bars, bar complex) mapping
 
 ### Statistical Analysis
 - **Trend Analysis**: Ordinary Least Squares (OLS) regression
@@ -84,12 +85,12 @@ pip install -r requirements.txt
 ### 2. Data Acquisition
 1. **Satellite Imagery**: Run Google Earth Engine scripts for complete coverage
 2. **Elevation Data**: Download SRTM/ArcticDEM using provided utilities
-3. **Manual Digitization**: Use ArcGIS Pro tools for channel feature mapping
+3. **Manual Digitisation**: Use ArcGIS Pro tools for channel feature mapping
 
 ### 3. Analysis Workflow
 1. **Site Selection**: Run database analysis to validate system selection
 2. **Profile Extraction**: Extract elevation profiles using ArcGIS tools
-3. **Statistical Analysis**: Process multi-scale measurements and trends
+3. **Statistical Analysis**: Process multi-scale (system, domain, cross-section and reach scales) measurements and trends
 4. **Visualization**: Generate publication-quality figures
 
 ## Key Features
@@ -97,8 +98,8 @@ pip install -r requirements.txt
 - ✅ **Systematic Multi-Scale Analysis** - Consistent methodology across all systems
 - ✅ **Climate Zone Representation** - Five major climate zones covered
 - ✅ **Reproducible Workflow** - Complete documentation and code
-- ✅ **Publication Quality** - Scientific visualization with colorblind-friendly palettes
-- ✅ **Manual Digitization Focus** - High-precision feature mapping
+- ✅ **Publication Quality** - Scientific visualisation with colorblind-friendly palettes from paul Tol's Notes
+- ✅ **Manual Digitisation Focus** - High-precision feature mapping without tiny slivers or gaps between polygons 
 - ✅ **Statistical Rigor** - OLS regression with significance testing
 
 ## Software Requirements
@@ -132,10 +133,6 @@ If you use this code or methodology in your research, please cite:
 [Your Paper Citation Here]
 ```
 
-## Contributing
-
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -149,11 +146,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-**Author**: [Your Name]  
-**Email**: [Your Email]  
-**Institution**: [Your Institution]  
-**ORCID**: [Your ORCID ID]
+**Author**: Kwetishe Joro Danjuma  
+**Email**: k.danjuma@outlook.com  
+**Institution**: University of Glasgow, UK  
+**ORCID**: https://orcid.org/0000-0001-7605-9285
 
 ---
 
-*This repository supports systematic analysis of distributive fluvial systems using manual digitization and multi-scale statistical approaches.*
+*This repository supports systematic analysis of distributive fluvial systems using manual digitisation and multi-scale statistical approaches.*
