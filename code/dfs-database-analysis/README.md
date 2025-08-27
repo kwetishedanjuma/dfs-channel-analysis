@@ -57,7 +57,7 @@ Final selection of five representative systems across climate zones:
 
 ## Data Sources
 
-All datasets are stored in the `../data/reference-data/` folder:
+All datasets are stored in the `../data` folder:
 
 ### Primary Database
 **`hartley_et_al_modern_dfs.xlsx`**
