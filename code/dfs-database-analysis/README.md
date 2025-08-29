@@ -84,8 +84,8 @@ dfs-channel-analysis/
 │   └── tectonic_setting_zoomed_in_figure.svg
 │   └── climate_basin_main_figure.svg
 │   └── climate_basin_zoomed_in_figure.svg
-├── dfs_database_analysis.ipynb
-├── dfs_database_analysis.py
+├── dfs_database_selection.ipynb
+├── dfs_database_selection.py
 └── README.md
 ```
 
