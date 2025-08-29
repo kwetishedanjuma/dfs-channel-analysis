@@ -76,10 +76,9 @@ All datasets are stored in the `data/` folder:
 
 ```
 dfs-channel-analysis/
-├── data/
-│   └── hartley_et_al_modern_dfs.xlsx
-│   └── modern_dfs_subset.xlsx      # optional, only if subset isn't reproducible
-│   └── modern_dfs_filter.xlsx      # optional, if manual filtering was used
+├── hartley_et_al_modern_dfs.xlsx
+├── modern_dfs_subset.xlsx           # optional, only if subset isn't reproducible
+├── modern_dfs_filter.xlsx           # optional, if manual filtering was used
 ├── figures/
 │   └── tectonic_setting_main_figure.svg
 │   └── tectonic_setting_zoomed_in_figure.svg
