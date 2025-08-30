@@ -94,14 +94,14 @@ dfs-channel-analysis/
 Analysis code is provided in this folder:
 
 ### Interactive Analysis
-**`dfs_database_analysis.ipynb`**
+**`dfs_database_selection.ipynb`**
 - Jupyter notebook for exploratory analysis of the Hartley et al. database
 - Statistical visualization and site selection validation
 - Climate zone and tectonic setting distribution analysis
 - Generates publication-quality figures for site selection justification
 
 ### Batch Processing
-**`dfs_database_analysis.py`**
+**`dfs_database_selection.py`**
 - Python script version for automated or command-line execution
 - Identical analysis to notebook but optimized for batch processing
 - Suitable for integration into larger analysis pipelines
@@ -111,13 +111,13 @@ Analysis code is provided in this folder:
 ### Interactive Exploration
 ```bash
 # Open notebook in JupyterLab
-jupyter lab dfs_database_analysis.ipynb
+jupyter lab dfs_database_selection.ipynb
 ```
 
 ### Script Execution
 ```bash
 # Run as Python script
-python dfs_database_analysis.py
+python dfs_database_selection.py
 ```
 
 ### Dependencies
