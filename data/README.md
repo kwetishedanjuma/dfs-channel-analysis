@@ -13,42 +13,70 @@ data/
 │   ├── hartley_et_al_modern_dfs.xlsx # Modern DFS database
 │   └── Global_DFS_database.kmz        # Spatial visualisation file
 │
-├── analysis-data/                     # Statistical analysis datasets
-│   ├── rio_fragua_chorroso_analysis_data.xlsx
-│   │   ├── channel_profile            # For channel gradient analysis
-│   │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
-│   │   ├── system_scale               # Whole DFS environment areas
-│   │   ├── domain_scale               # Proximal/medial/distal environment areas
-│   │   └── reach_scale                # Reach-scale environment areas
-│   ├── canning_river_analysis_data.xlsx
-│   │   ├── channel_profile            # For channel gradient analysis
-│   │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
-│   │   ├── system_scale               # Whole DFS environment areas
-│   │   ├── domain_scale               # Proximal/medial/distal environment areas
-│   │   └── reach_scale                # Reach-scale environment areas
-│   ├── nabesna_river_analysis_data.xlsx
-│   │   ├── channel_profile            # For channel gradient analysis
-│   │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
-│   │   ├── system_scale               # Whole DFS environment areas
-│   │   ├── domain_scale               # Proximal/medial/distal environment areas
-│   │   └── reach_scale                # Reach-scale environment areas
-│   ├── brahmaputra_river_analysis_data.xlsx
-│   │   ├── channel_profile            # For channel gradient analysis
-│   │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
-│   │   ├── system_scale               # Whole DFS environment areas
-│   │   ├── domain_scale               # Proximal/medial/distal environment areas
-│   │   └── reach_scale                # Reach-scale environment areas
-│   └── unnamed_iranian_dfs_analysis_data.xlsx
-│       ├── channel_profile            # For channel gradient analysis
-│       ├── cross_section_scale        # Channel belt, active channel widths and their ratios
-│       ├── system_scale               # Whole DFS environment areas
-│       ├── domain_scale               # Proximal/medial/distal environment areas
-│       └── reach_scale                # Reach-scale environment areas
-│
-└── processed/                         # Intermediate processing files
-    └── temporary-outputs/             # Temporary analysis files
+└── analysis-data/                     # Statistical analysis datasets
+    ├── rio_fragua_chorroso_analysis_data.xlsx
+    │   ├── channel_profile            # For channel gradient analysis
+    │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
+    │   ├── system_scale               # Whole DFS environment areas
+    │   ├── domain_scale               # Proximal/medial/distal environment areas
+    │   └── reach_scale                # Reach-scale environment areas
+    ├── canning_river_analysis_data.xlsx
+    │   ├── channel_profile            # For channel gradient analysis
+    │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
+    │   ├── system_scale               # Whole DFS environment areas
+    │   ├── domain_scale               # Proximal/medial/distal environment areas
+    │   └── reach_scale                # Reach-scale environment areas
+    ├── nabesna_river_analysis_data.xlsx
+    │   ├── channel_profile            # For channel gradient analysis
+    │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
+    │   ├── system_scale               # Whole DFS environment areas
+    │   ├── domain_scale               # Proximal/medial/distal environment areas
+    │   └── reach_scale                # Reach-scale environment areas
+    ├── brahmaputra_river_analysis_data.xlsx
+    │   ├── channel_profile            # For channel gradient analysis
+    │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
+    │   ├── system_scale               # Whole DFS environment areas
+    │   ├── domain_scale               # Proximal/medial/distal environment areas
+    │   └── reach_scale                # Reach-scale environment areas
+    └── unnamed_iranian_dfs_analysis_data.xlsx
+        ├── channel_profile            # For channel gradient analysis
+        ├── cross_section_scale        # Channel belt, active channel widths and their ratios
+        ├── system_scale               # Whole DFS environment areas
+        ├── domain_scale               # Proximal/medial/distal environment areas
+        └── reach_scale                # Reach-scale environment areas
 ```
-```
+
+## Data Sources
+
+### Reference Datasets
+
+**`reference-data/hartley_et_al_modern_dfs.xlsx`**  
+- Global compilation of 415 modern distributive fluvial systems
+- Statistical and morphometric data for site selection analysis
+- Associated with: Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183.
+
+**`reference-data/Global_DFS_database.kmz`**  
+- Google Earth KMZ file for spatial visualization of distributive fluvial systems
+- Geographic locations (apex and toe coordinates) of documented DFS
+- Compatible with Google Earth Pro and GIS software
+- Associated with: Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183.
+
+### Statistical Analysis Datasets
+
+Each system's analysis data is organised in standardised Excel files with multiple sheets for multi-scale analysis:
+
+#### Sheet Structure (5 sheets per system)
+- **`channel_profile`**: Elevation data for LOWESS profile analysis and gradient calculation
+- **`cross_section_scale`**: Channel belt width and active channel width measurements for OLS trend analysis
+- **`system_scale`**: Whole DFS environment areas (wetted channel, vegetated bars, unvegetated bars, bar complex)
+- **`domain_scale`**: Environment areas by domain - Proximal (0-33.3%), Medial (33.3-66.7%), Distal (66.7-100%)
+- **`reach_scale`**: Reach-scale environment areas for downstream trend analysis (OLS → R², p-value, CV)
+
+#### Analysis Data Usage
+- **Profile Analysis**: `channel_profile` sheet → LOWESS smoothing → gradient plots
+- **Width Trend Analysis**: `cross_section_scale` sheet → OLS regression → R², p-value, CV statistics  
+- **Environmental Analysis**: `system_scale`, `domain_scale`, `reach_scale` sheets → Multi-scale spatial variability analysis
+- **Comparative Analysis**: Combined `cross_section_scale` data from all systems → channel belt to active channel width ratios
 
 ## Data Acquisition Workflow
 
@@ -64,11 +92,11 @@ data/
   - `code/google-earth-engine/gee_elevation_download.js` (SRTM/ArcticDEM)
   - `code/google-earth-engine/gee_sentinel2_complete_coverage.js` (if needed)
 
-**Step 3: Manual Digitisation (ArcGIS Pro)**
+**Step 3: Manual Digitization (ArcGIS Pro)**
 - Create geodatabase for each system
-- Digitise channel centerlines, channel belts, environmental features
+- Digitize channel centerlines, channel belts, environmental features
 - Extract measurements using `code/arcgis-tools/channel_profile_extraction.py`
-- Export to analysis-ready Excel format following standardised sheet structure
+- Export to analysis-ready Excel format following standardized sheet structure
 
 **Step 4: Statistical Analysis**
 - Place Excel files in `analysis-data/` folder
@@ -76,7 +104,7 @@ data/
 
 ### For This Study (Completed Analysis)
 - Source imagery and elevation data were acquired and processed
-- Manual digitisation completed in ArcGIS Pro geodatabases
+- Manual digitization completed in ArcGIS Pro geodatabases
 - Final analysis-ready datasets provided in `analysis-data/` folder
 - Raw imagery and elevation files not included due to size constraints
 
@@ -84,7 +112,7 @@ data/
 
 ### File Naming Convention
 - **Format**: `{system_name}_{data_type}.{extension}`
-- **Example**: `rio_fragua_chorroso_sentinel2.tif`
+- **Example**: `rio_fragua_chorroso_analysis_data.xlsx`
 - **System Names (Climate Order)**: 
   - `rio_fragua_chorroso` (Tropical, Colombia)
   - `canning_river` (Polar, Alaska)
@@ -92,15 +120,16 @@ data/
   - `brahmaputra_river` (Subtropical, India)
   - `unnamed_iranian_dfs` (Drylands, Iran)
 
-### Coordinate Systems
-- **Satellite/Elevation**: WGS84 (EPSG:4326)
-- **Vector Data**: Appropriate UTM zone for each system
-- **Processing**: Reprojected as needed for analysis
+### Excel Sheet Organization
+- **Standardised structure**: All systems follow identical 5-sheet format
+- **Multi-scale framework**: System/domain/reach scale data organization
+- **Analysis-ready**: Direct input for statistical analysis workflows
+- **Consistent formatting**: Uniform column headers and data types
 
-### Data Quality
-- **Imagery**: Visually inspected for cloud cover and completeness
-- **Elevation**: Validated against known elevation points
-- **Vector**: Quality-controlled through systematic digitisation protocols
+### Quality Control
+- **Geodatabase validation**: Quality-controlled through ArcGIS Pro digitisation protocols
+- **Measurement consistency**: Standardised methods across all systems
+- **Data completeness**: Verified coverage for all required analysis scales
 
 ## Access and Licensing
 
@@ -110,20 +139,28 @@ data/
 - **ArcticDEM**: Open access via Polar Geospatial Center
 
 ### Generated Data
-- **Vector datasets**: Created as part of this research
-- **Processed data**: Derived from public sources with added value
+- **Analysis datasets**: Created as part of this research
+- **Processed measurements**: Derived from public sources with added analytical value
 
 ## Getting Started
 
-1. **Create data directories**: Run the provided setup script
-2. **Download imagery**: Use Google Earth Engine scripts
-3. **Acquire elevation data**: Run elevation download utilities  
-4. **Perform digitisation**: Follow ArcGIS workflow documentation
-5. **Validate data**: Check completeness and quality before analysis
+### For New Researchers
+1. **Review methodology**: Examine `code/` documentation for complete workflow
+2. **Identify study systems**: Use KMZ file to locate potential DFS
+3. **Acquire source data**: Follow data acquisition workflow
+4. **Apply digitisation protocol**: Use ArcGIS Pro workflow
+5. **Generate analysis data**: Export to standardized Excel format
+6. **Run statistical analysis**: Use provided analysis pipeline
+
+### For This Study Analysis
+1. **Load analysis datasets**: Excel files ready for statistical processing
+2. **Configure system parameters**: Use `code/config/` templates
+3. **Run analysis workflow**: Execute statistical analysis pipeline
+4. **Generate results**: Produce publication-quality outputs
 
 ## Support
 
-For questions about data acquisition or processing, please refer to:
-- Individual folder README files
-- Code documentation in respective analysis scripts
-- Repository issues for technical problems
+For questions about data structure or acquisition workflow:
+- Review analysis pipeline documentation in `code/statistical-analysis/`
+- Consult individual tool documentation in respective code folders
+- Open repository issues for technical problems or clarifications
