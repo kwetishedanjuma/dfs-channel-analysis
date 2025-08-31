@@ -9,91 +9,76 @@ data/
 ├── README.md                           # This file
 ├── .gitkeep                           # Keeps empty folders in git
 │
-├── satellite-imagery/                 # Sentinel-2 imagery
-│   ├── rio_fragua_chorroso_sentinel2.tif      # Tropical system (Colombia)
-│   ├── canning_river_sentinel2.tif            # Polar system (Alaska)
-│   ├── nabesna_river_sentinel2.tif            # Continental system (Alaska)
-│   ├── brahmaputra_river_sentinel2.tif        # Subtropical system (India)
-│   └── unnamed_iranian_dfs_sentinel2.tif      # Drylands system (Iran)
+├── reference-data/                    # External datasets
+│   ├── hartley_et_al_modern_dfs.xlsx # Modern DFS database
+│   └── Global_DFS_database.kmz        # Spatial visualisation file
 │
-├── elevation/                         # Digital elevation models
-│   ├── srtm/                         # SRTM 30m data
-│   │   ├── rio_fragua_chorroso_srtm.tif
-│   │   ├── canning_river_srtm.tif
-│   │   ├── nabesna_river_srtm.tif
-│   │   ├── brahmaputra_river_srtm.tif
-│   │   └── unnamed_iranian_dfs_srtm.tif
-│   └── arcticdem/                     # ArcticDEM 2m data (Alaska systems)
-│       ├── canning_river_arcticdem.tif
-│       └── nabesna_river_arcticdem.tif
-│
-├── vector-data/                       # Digitized features
-│   ├── centerlines/                   # Channel centerlines
-│   │   ├── rio_fragua_chorroso_centerline.shp
-│   │   ├── canning_river_centerline.shp
-│   │   ├── nabesna_river_centerline.shp
-│   │   ├── brahmaputra_river_centerline.shp
-│   │   └── unnamed_iranian_dfs_centerline.shp
-│   ├── channel-belts/                 # Channel belt boundaries
-│   │   ├── rio_fragua_chorroso_channel_belt.shp
-│   │   ├── canning_river_channel_belt.shp
-│   │   ├── nabesna_river_channel_belt.shp
-│   │   ├── brahmaputra_river_channel_belt.shp
-│   │   └── unnamed_iranian_dfs_channel_belt.shp
-│   └── environments/                  # Environmental features
-│       ├── rio_fragua_chorroso_environments.shp
-│       ├── canning_river_environments.shp
-│       ├── nabesna_river_environments.shp
-│       ├── brahmaputra_river_environments.shp
-│       └── unnamed_iranian_dfs_environments.shp
+├── analysis-data/                     # Statistical analysis datasets
+│   ├── rio_fragua_chorroso_analysis_data.xlsx
+│   │   ├── channel_profile            # For channel gradient analysis
+│   │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
+│   │   ├── system_scale               # Whole DFS environment areas
+│   │   ├── domain_scale               # Proximal/medial/distal environment areas
+│   │   └── reach_scale                # Reach-scale environment areas
+│   ├── canning_river_analysis_data.xlsx
+│   │   ├── channel_profile            # For channel gradient analysis
+│   │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
+│   │   ├── system_scale               # Whole DFS environment areas
+│   │   ├── domain_scale               # Proximal/medial/distal environment areas
+│   │   └── reach_scale                # Reach-scale environment areas
+│   ├── nabesna_river_analysis_data.xlsx
+│   │   ├── channel_profile            # For channel gradient analysis
+│   │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
+│   │   ├── system_scale               # Whole DFS environment areas
+│   │   ├── domain_scale               # Proximal/medial/distal environment areas
+│   │   └── reach_scale                # Reach-scale environment areas
+│   ├── brahmaputra_river_analysis_data.xlsx
+│   │   ├── channel_profile            # For channel gradient analysis
+│   │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
+│   │   ├── system_scale               # Whole DFS environment areas
+│   │   ├── domain_scale               # Proximal/medial/distal environment areas
+│   │   └── reach_scale                # Reach-scale environment areas
+│   └── unnamed_iranian_dfs_analysis_data.xlsx
+│       ├── channel_profile            # For channel gradient analysis
+│       ├── cross_section_scale        # Channel belt, active channel widths and their ratios
+│       ├── system_scale               # Whole DFS environment areas
+│       ├── domain_scale               # Proximal/medial/distal environment areas
+│       └── reach_scale                # Reach-scale environment areas
 │
 └── processed/                         # Intermediate processing files
-    ├── profile-data/                  # Extracted elevation profiles
-    ├── measurements/                  # Cross-section measurements
-    └── statistics/                    # Calculated metrics
+    └── temporary-outputs/             # Temporary analysis files
+```
 ```
 
-## Data Sources
+## Data Acquisition Workflow
 
-- **hartley_et_al_modern_dfs.xlsx**  
-  Associated with:  
-  Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183.
+### For Researchers Using This Methodology
 
-- **Global_DFS_database.kmz**  
-  Google Earth KMZ file for spatial visualization of distributive fluvial systems.  
-  Associated with: Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183.
-  
-  This file contains locations (apex and toe coordinates) of documented distributive fluvial systems.  
-  You can load this file in Google Earth or compatible GIS software to visualize system locations.
+**Step 1: Identify Study Systems**
+- Use `reference-data/Global_DFS_database.kmz` to locate potential DFS
+- Select systems based on research objectives and data availability
 
-### How to Use
+**Step 2: Acquire Source Data**
+- **Satellite Imagery**: Download Sentinel-2 from USGS EarthExplorer
+- **Elevation Data**: Use provided Google Earth Engine scripts
+  - `code/google-earth-engine/gee_elevation_download.js` (SRTM/ArcticDEM)
+  - `code/google-earth-engine/gee_sentinel2_complete_coverage.js` (if needed)
 
-- Open `Global_DFS_database.kmz` in Google Earth or GIS software.
-- Use the coordinate reference system (CRS) for apex and toe to locate each distributive system.
-- Once you identify a system of interest, download corresponding satellite imagery from USGS EarthExplorer, Copernicus Open Access Hub, or other archives.
-- This workflow allows you to combine published system locations with up-to-date remote sensing data for further analysis.
+**Step 3: Manual Digitisation (ArcGIS Pro)**
+- Create geodatabase for each system
+- Digitise channel centerlines, channel belts, environmental features
+- Extract measurements using `code/arcgis-tools/channel_profile_extraction.py`
+- Export to analysis-ready Excel format following standardised sheet structure
 
-## Data Acquisition
+**Step 4: Statistical Analysis**
+- Place Excel files in `analysis-data/` folder
+- Run analysis using `code/statistical-analysis/` workflow
 
-### Satellite Imagery
-- **Source**: Sentinel-2 Surface Reflectance Collection
-- **Platform**: Google Earth Engine
-- **Script**: `code/google-earth-engine/gee_sentinel2_complete_coverage.js`
-- **Criteria**: Cloud cover <10%, single date per system
-- **Format**: GeoTIFF with all bands
-
-### Elevation Data
-- **SRTM**: 30m resolution, global coverage
-- **ArcticDEM**: 2m resolution, Alaska systems only
-- **Platform**: Google Earth Engine
-- **Script**: `code/google-earth-engine/gee_elevation_download.js`
-- **Format**: GeoTIFF, WGS84 projection
-
-### Vector Data
-- **Method**: Manual digitization in ArcGIS Pro
-- **Features**: Centerlines, channel belts, environmental polygons
-- **Precision**: Sub-pixel accuracy with expert interpretation
-- **Format**: ESRI Shapefiles with attribute tables
+### For This Study (Completed Analysis)
+- Source imagery and elevation data were acquired and processed
+- Manual digitisation completed in ArcGIS Pro geodatabases
+- Final analysis-ready datasets provided in `analysis-data/` folder
+- Raw imagery and elevation files not included due to size constraints
 
 ## Usage Notes
 
@@ -115,7 +100,7 @@ data/
 ### Data Quality
 - **Imagery**: Visually inspected for cloud cover and completeness
 - **Elevation**: Validated against known elevation points
-- **Vector**: Quality-controlled through systematic digitization protocols
+- **Vector**: Quality-controlled through systematic digitisation protocols
 
 ## Access and Licensing
 
@@ -133,7 +118,7 @@ data/
 1. **Create data directories**: Run the provided setup script
 2. **Download imagery**: Use Google Earth Engine scripts
 3. **Acquire elevation data**: Run elevation download utilities  
-4. **Perform digitization**: Follow ArcGIS workflow documentation
+4. **Perform digitisation**: Follow ArcGIS workflow documentation
 5. **Validate data**: Check completeness and quality before analysis
 
 ## Support
