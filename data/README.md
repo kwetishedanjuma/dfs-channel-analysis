@@ -56,7 +56,7 @@ data/
 - Associated with: Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183.
 
 **`reference-data/Global_DFS_database.kmz`**  
-- Google Earth KMZ file for spatial visualization of distributive fluvial systems
+- Google Earth KMZ file for spatial visualisation of distributive fluvial systems
 - Geographic locations (apex and toe coordinates) of documented DFS
 - Compatible with Google Earth Pro and GIS software
 - Associated with: Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183.
@@ -92,11 +92,11 @@ Each system's analysis data is organised in standardised Excel files with multip
   - `code/google-earth-engine/gee_elevation_download.js` (SRTM/ArcticDEM)
   - `code/google-earth-engine/gee_sentinel2_complete_coverage.js` (if needed)
 
-**Step 3: Manual Digitization (ArcGIS Pro)**
+**Step 3: Manual Digitisation (ArcGIS Pro)**
 - Create geodatabase for each system
-- Digitize channel centerlines, channel belts, environmental features
+- Digitise channel centerlines, channel belts, environmental features
 - Extract measurements using `code/arcgis-tools/channel_profile_extraction.py`
-- Export to analysis-ready Excel format following standardized sheet structure
+- Export to analysis-ready Excel format following standardised sheet structure
 
 **Step 4: Statistical Analysis**
 - Place Excel files in `analysis-data/` folder
@@ -104,7 +104,7 @@ Each system's analysis data is organised in standardised Excel files with multip
 
 ### For This Study (Completed Analysis)
 - Source imagery and elevation data were acquired and processed
-- Manual digitization completed in ArcGIS Pro geodatabases
+- Manual digitisation completed in ArcGIS Pro geodatabases
 - Final analysis-ready datasets provided in `analysis-data/` folder
 - Raw imagery and elevation files not included due to size constraints
 
@@ -120,7 +120,7 @@ Each system's analysis data is organised in standardised Excel files with multip
   - `brahmaputra_river` (Subtropical, India)
   - `unnamed_iranian_dfs` (Drylands, Iran)
 
-### Excel Sheet Organization
+### Excel Sheet Organisation
 - **Standardised structure**: All systems follow identical 5-sheet format
 - **Multi-scale framework**: System/domain/reach scale data organization
 - **Analysis-ready**: Direct input for statistical analysis workflows
@@ -149,7 +149,7 @@ Each system's analysis data is organised in standardised Excel files with multip
 2. **Identify study systems**: Use KMZ file to locate potential DFS
 3. **Acquire source data**: Follow data acquisition workflow
 4. **Apply digitisation protocol**: Use ArcGIS Pro workflow
-5. **Generate analysis data**: Export to standardized Excel format
+5. **Generate analysis data**: Export to standardised Excel format
 6. **Run statistical analysis**: Use provided analysis pipeline
 
 ### For This Study Analysis
