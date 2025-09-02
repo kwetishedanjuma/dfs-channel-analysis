@@ -63,7 +63,7 @@ All datasets are stored in the `data/` folder:
 **`hartley_et_al_modern_dfs.xlsx`**
 - Comprehensive global DFS compilation
 - Statistical and morphometric data for 415 systems
-- Associated with: Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183.
+- Associated with: Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183. https://doi.org/10.2110/jsr.2010.016
 
 ### Spatial Data
 **`Global_DFS_database.kmz`**
@@ -173,7 +173,7 @@ This analysis supports:
 ## References
 
 **Primary Database:**  
-Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183.
+Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183. https://doi.org/10.2110/jsr.2010.016
 
 **Additional Context:**
 - Database represents most comprehensive global compilation of modern DFS
