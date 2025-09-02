@@ -214,11 +214,10 @@ OUTPUT_DIR = "../results/system-outputs/rio_fragua_chorroso/"
 
 ### Data Validation
 - **Missing value detection**: Automated checks for incomplete datasets
-- **Statistical outlier identification**: Values beyond 2σ threshold
 - **Cross-scale consistency**: Verification between system/domain/reach scales
 
 ### Reproducibility
-- **Standardized methodology**: Identical analysis across all systems
+- **Standardised methodology**: Identical analysis across all systems
 - **Configuration management**: System-specific parameters documented
 - **Version control**: All analysis steps tracked and reproducible
 
@@ -228,7 +227,7 @@ OUTPUT_DIR = "../results/system-outputs/rio_fragua_chorroso/"
 - **Format**: SVG for publication quality
 - **Style**: SciencePlots with Paul Tol colorblind-friendly palette
 - **Resolution**: 300 DPI when exported to raster formats
-- **Consistency**: Standardized axis labels, legends, and formatting
+- **Consistency**: Standardised axis labels, legends, and formatting
 
 ### Statistical Tables
 - **Format**: Excel with multiple sheets for different analyses
@@ -241,8 +240,8 @@ This analysis framework supports:
 - **Climate-based comparisons**: Systematic analysis across five climate zones
 - **Multi-scale understanding**: System, domain, and reach-scale patterns
 - **Statistical rigor**: OLS regression with significance testing
-- **Reproducible research**: Standardized methodology and documentation
-- **Publication quality**: Professional visualization and data presentation
+- **Reproducible research**: Standardised methodology and documentation
+- **Publication quality**: Professional visualisation and data presentation
 
 ## References
 
@@ -250,6 +249,6 @@ This analysis framework supports:
 - Cleveland, W.S. (1979) Robust locally weighted regression and smoothing scatterplots. *Journal of the American Statistical Association*, 74(368), 829-836.
 - Cleveland, W.S. and Devlin, S.J. (1988) Locally weighted regression: an approach to regression analysis by local fitting. *Journal of the American Statistical Association*, 83(403), 596-610.
 
-**Visualization:**
+**Visualisation:**
 - Garrett, N. (2021) SciencePlots: Publication-ready scientific figures. Available at: https://github.com/garrettj403/SciencePlots
 - Tol, P. (2021) Colour Schemes. SRON Technical Note. Available at: https://personal.sron.nl/~pault/
