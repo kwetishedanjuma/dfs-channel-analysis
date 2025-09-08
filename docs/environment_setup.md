@@ -62,4 +62,4 @@ venv\Scripts\activate      # Windows
 ---
 
 **Troubleshooting:**  
-If you encounter issues, check the files in `doc/` for platform-specific notes and workarounds.
+If you encounter issues, check the files in `docs/` for platform-specific notes and workarounds.
