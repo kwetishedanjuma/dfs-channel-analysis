@@ -18,7 +18,7 @@ Helpful tips and best practices for using the `dfs-channel-analysis` repository.
   jupyter notebook
   ```
 - Read notebook instructions and bullet notes at the top before running code cells.
-- If you encounter plotting or LaTeX errors, see the troubleshooting docs in `doc/`.
+- If you encounter plotting or LaTeX errors, see the troubleshooting docs in `docs/`.
 
 ---
 
@@ -52,7 +52,7 @@ Helpful tips and best practices for using the `dfs-channel-analysis` repository.
 
 ## Contributing
 
-- Add new documentation to `doc/` with clear, descriptive filenames.
+- Add new documentation to `docs/` with clear, descriptive filenames.
 - Comment your code and notebooks to help others understand your process.
 
 ---
