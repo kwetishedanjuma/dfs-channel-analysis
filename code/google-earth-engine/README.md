@@ -16,7 +16,7 @@ These scripts provide essential data acquisition capabilities for the manual dig
 - **Usage**: Substitute `DEM` for SRTM or ArcticDEM within the script as appropriate.
 - **How to use**: Open the script for full usage instructions and edit as directed by in-line comments.
 
-### [`gee_download_sentinel-2_fullcoverage.js`](./gee_download_sentinel2_fullcoverage.js)
+### [`gee_download_sentinel-2_fullcoverage.js`](./gee_download_sentinel-2_fullcoverage.js)
 - **Purpose**: Download full spatial coverage Sentinel-2 imagery (cloud-masked, single date, matching manual digitisation).
 - **Data Source**: Sentinel-2 Surface Reflectance Collection.
 - **Usage**: Open the script and edit dates and ROI as described in script comments.
