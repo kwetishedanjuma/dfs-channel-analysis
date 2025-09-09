@@ -1,6 +1,6 @@
 # Google Earth Engine Data Acquisition Utilities
 
-Standalone JavaScript utilities for acquiring elevation and satellite imagery data for DFS analysis.
+Standalone JavaScript utilities for acquiring elevation (SRTM/ArcticDEM) and full spatial coverage Sentinel-2 imagery for DFS analysis.
 
 ## Purpose
 
@@ -10,115 +10,16 @@ These scripts provide essential data acquisition capabilities for the manual dig
 
 ## Scripts Included
 
-### `gee_elevation_download.js`
+### [`gee_download_elevation.js`](./gee_download_elevation.js)
+- **Purpose**: Download elevation data for channel profile extraction.
+- **Data Sources**: SRTM (30m) for most regions, ArcticDEM (2m) for polar/continental systems.
+- **Usage**: Substitute `DEM` for SRTM or ArcticDEM within the script as appropriate.
+- **How to use**: Open the script for full usage instructions and edit as directed by in-line comments.
 
-- **Purpose**: Download elevation data (SRTM 30m, ArcticDEM 2m) for channel profile extraction.
-- **Data Sources**: SRTM (30m resolution), ArcticDEM (2m resolution)
-- **Output Format**: GeoTIFF
-- **Usage**: Required for all systems - provides elevation data for ArcGIS profile analysis
-
-**Sample Usage:**
-```javascript
-// Set up map view
-Map.setCenter({lon: -142.171, lat: 62.792, zoom: 7 });
-Map.setOptions('SATELLITE');
-
-// Import channel belt geometry as study area (replace "geometry" with your asset)
-var studyArea = ee.FeatureCollection(geometry);
-
-// Print ArcticDEM Image details to the console
-print('ArcticDEM Elevation Data at 2m:', ArcticDEM);
-
-var palettes = require('users/gena/packages:palettes');
-var elevation_palette = palettes.crameri.batlow[50];
-
-Map.addLayer(studyArea, {min: -50, max: 1000, palette: elevation_palette}, 'Alaska13River');
-Map.addLayer(ArcticDEM, {min: -50, max: 1000, palette: elevation_palette}, 'ArcticDEM elevation');
-
-Export.image.toDrive({
-  image: ArcticDEM,
-  description: 'Alaska13RiverArcticDEM',
-  region: studyArea,
-  scale: 30,
-  fileFormat: 'GeoTIFF',
-  folder: 'SRTMArcticDEM Data',
-  maxPixels: 1e13,
-});
-```
-
-### `gee_srtm_download.js`
-
-- **Purpose**: Download SRTM elevation for non-polar regions.
-- **Data Source**: USGS SRTM Digital Elevation 30m
-- **Output Format**: GeoTIFF
-- **Usage**: Required for all systems except those covered by ArcticDEM
-
-**Sample Usage:**
-```javascript
-Map.setCenter({lon: 95.355, lat: 28.07, zoom: 12 });
-Map.setOptions('SATELLITE');
-var studyArea = ee.FeatureCollection(geometry);
-print('The SRTM Digital Elevation Data at 30m:', SRTM);
-
-var palettes = require('users/gena/packages:palettes');
-var elevation_palette = palettes.crameri.batlow[50];
-
-Map.addLayer(studyArea, {min: 0, max: 1000, palette: elevation_palette}, 'India13River');
-Map.addLayer(SRTM, {min: 0, max: 1000, palette: elevation_palette}, 'SRTM elevation');
-
-Export.image.toDrive({
-  image: SRTM,
-  description: 'India13River_v1SRTM',
-  region: studyArea,
-  scale: 30,
-  fileFormat: 'GeoTIFF',
-  folder: 'SRTMArcticDEM Data',
-  maxPixels: 1e13,
-});
-```
-
-### `gee_sentinel2_complete_coverage.js`
-
-- **Purpose**: Ensure complete Sentinel-2 image coverage, with cloud masking and date filtering.
-- **Data Source**: Sentinel-2 Surface Reflectance Collection
-- **Output Format**: GeoTIFF (RGB and NIR bands)
-- **Usage**: When standard tile downloads lack full spatial coverage (e.g., Brahmaputra DFS)
-- **Filters**: Cloud cover <20%, single date per system
-
-**Sample Usage:**
-```javascript
-function maskS2Clouds(image) {
-  var qa = image.select('QA60');
-  var cloudBitMask = 1 << 10;
-  var cirrusBitMask = 1 << 11;
-  var mask = qa.bitwiseAnd(cloudBitMask).eq(0)
-      .and(qa.bitwiseAnd(cirrusBitMask).eq(0));
-  return image.updateMask(mask).divide(10000)
-              .copyProperties(image, ["system:time_start"]);
-}
-var S2Image = ee.ImageCollection('COPERNICUS/S2_SR')
-    .filterDate('2021-12-01', '2021-12-31')
-    .filterBounds(studyArea)
-    .filterMetadata('CLOUDY_PIXEL_PERCENTAGE','less_than',20)
-    .map(maskS2Clouds);
-
-var medianComposite = S2Image.median();
-
-Map.setOptions('SATELLITE');
-Map.centerObject(studyArea);
-
-Map.addLayer(medianComposite, {min:0.0, max:0.3, bands:['B4', 'B3', 'B2']}, 'Sentinel-2 True Colour');
-
-Export.image.toDrive({
-  image: medianComposite,
-  description: 'Sentinel2_CompleteCoverage',
-  region: studyArea,
-  scale: 10,
-  fileFormat: 'GeoTIFF',
-  folder: 'Sentinel2_Data',
-  maxPixels: 1e12
-});
-```
+### [`gee_download_sentinel2_fullcoverage.js`](./gee_download_sentinel2_fullcoverage.js)
+- **Purpose**: Download full spatial coverage Sentinel-2 imagery (cloud-masked, single date, matching manual digitisation).
+- **Data Source**: Sentinel-2 Surface Reflectance Collection.
+- **Usage**: Open the script and edit dates and ROI as described in script comments.
 
 ---
 
@@ -126,20 +27,9 @@ Export.image.toDrive({
 
 - Google Earth Engine account with access to:
   - USGS SRTM Digital Elevation 30m
-  - Arctic DEM (for polar and continental systems)
+  - ArcticDEM (for polar and continental systems)
   - Sentinel-2 MSI Surface Reflectance
 - Study area boundaries (typically channel belt extent + buffer; use digitised channelBelt.shp)
-
----
-
-## Workflow Integration
-
-1. **Define study area**: Use manually digitised channel belt boundaries.
-2. **Download elevation data**: Run elevation script for profile extraction.
-3. **Download imagery**: Run complete coverage script if needed.
-4. **Import to ArcGIS**: Use outputs in manual digitisation workflow.
-
----
 
 ## Output Specifications
 
@@ -151,8 +41,8 @@ Export.image.toDrive({
 
 ## Usage Notes
 
-- Scripts are designed as standalone utilities.
-- No automated classification - supports manual digitisation approach only.
+- Scripts are standalone utilities; open each `.js` file for up-to-date examples and usage.
+- No automated classification—these support a manual digitisation approach.
 - Outputs serve as inputs to ArcGIS-based analysis pipeline.
 
 ---
@@ -172,10 +62,4 @@ Export.image.toDrive({
 
 ---
 
-## How To Use
-
-- Replace `geometry` or `studyArea` with your uploaded `channelBelt` shapefile or bounding box (see coordinates above).
-- Use the sample scripts directly in the GEE Code Editor (`https://code.earthengine.google.com/`).
-- Adjust export parameters (region, scale, folder, etc.) for your workflow.
-
-See [../docs/data_acquisition.md](../../docs/data_acquisition.md) for the complete workflow and further instructions.
+For more details or workflow instructions, see [../docs/data_acquisition.md](../../docs/data_acquisition.md).
