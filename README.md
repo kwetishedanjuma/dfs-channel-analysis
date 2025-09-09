@@ -42,28 +42,38 @@ Analysis of five representative DFS across different climate zones:
 
 ```
 dfs-channel-analysis/
-├── README.md                    # This file
-├── LICENSE                      # MIT License
-├── requirements.txt             # Python dependencies
-├── .gitignore                   # Version control exclusions
+├── README.md                  # Project documentation (this file)
+├── LICENSE                    # MIT License
+├── requirements.txt           # Python dependencies
+├── .gitignore                 # Version control exclusions
 │
-├── code/                        # Analysis code and workflows
-│   ├── arcgis-tools/           # ArcGIS Pro tools for manual digitization
-│   ├── config/                 # System-specific configuration files
-│   ├── dfs-database-analysis/  # Site selection analysis
-│   ├── google-earth-engine/    # Data acquisition utilities
-│   └── statistical-analysis/   # Python analysis pipeline
+├── code/                      # Analysis code and workflows
+│   ├── arcgis-tools/          # ArcGIS Pro tools for manual digitization
+│   ├── config/                # System-specific configuration and parameters
+│   ├── dfs-database-analysis/ # Site selection and database analysis scripts
+│   ├── google-earth-engine/   # Data acquisition utilities (e.g., GEE scripts)
+│   └── statistical-analysis/  # Python analysis pipeline and plotting
 │
-├── data/                       # Input datasets (not tracked in git)
-│   ├── satellite-imagery/     # Sentinel-2 imagery
-│   ├── elevation/             # SRTM and ArcticDEM data
-│   └── vector-data/           # Digitized channel features
+├── data/                      # Input datasets (NOT tracked in git; use .gitignore)
+│   ├── README.md              # Description of data folder and its contents
+│   ├── .gitkeep               # Keeps empty folders in git
+│   ├── hartley_et_al_modern_dfs.xlsx         # Modern DFS database
+│   ├── Global_DFS_database.kmz               # Spatial visualisation file
+│   ├── rio_fragua_chorroso_analysis_data.xlsx      # System-specific analysis data
+│   ├── canning_river_analysis_data.xlsx             # System-specific analysis data
+│   ├── nabesna_river_analysis_data.xlsx             # System-specific analysis data
+│   ├── brahmaputra_river_analysis_data.xlsx         # System-specific analysis data
+│   └── unnamed_iranian_dfs_analysis_data.xlsx       # System-specific analysis data
 │
-└── results/                    # Analysis outputs (not tracked in git)
-    ├── figures/               # Publication-quality plots
-    ├── tables/                # Statistical summaries
-    └── system-outputs/        # Individual system results
+└── results/                   # Analysis outputs (NOT tracked in git; use .gitignore)
+    ├── figures/               # Publication-quality plots and figures
+    ├── tables/                # Statistical summaries and CSVs
+    └── system-outputs/        # Individual system-level results
 ```
+
+> **Note:**  
+> - All large or proprietary data are NOT tracked by git and must be included in your `.gitignore` file.
+> - For collaboration, provide metadata or download scripts for data acquisition when possible.
 
 ## Quick Start
 
