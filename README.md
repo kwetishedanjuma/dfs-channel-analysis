@@ -152,4 +152,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*This repository supports systematic analysis of distributive fluvial systems using manual digitisation and multi-scale statistical approaches.*
+*This repository supports systematic analysis of distributive fluvial systems using manual digitisation in ArcGIS Pro and multi-scale statistical approaches using Python and statistical model (e.g., Regression analysis).*
