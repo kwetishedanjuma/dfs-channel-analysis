@@ -5,57 +5,58 @@ This directory contains input datasets for DFS channel analysis. **Note**: Data 
 ## Directory Structure
 
 ```
+```
 data/
-├── README.md                           # This file
-├── .gitkeep                           # Keeps empty folders in git
+├── README.md                             # This file
+├── .gitkeep                              # Keeps empty folders in git
 │
-├── reference-data/                    # External datasets
-│   ├── hartley_et_al_modern_dfs.xlsx # Modern DFS database
-│   └── Global_DFS_database.kmz        # Spatial visualisation file
+├── hartley_et_al_modern_dfs.xlsx         # Modern DFS database
+│   └── Global_DFS_database.kmz           # Spatial visualisation file
 │
-└── analysis-data/                     # Statistical analysis datasets
-    ├── rio_fragua_chorroso_analysis_data.xlsx
-    │   ├── channel_profile            # For channel gradient analysis
-    │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
-    │   ├── system_scale               # Whole DFS environment areas
-    │   ├── domain_scale               # Proximal/medial/distal environment areas
-    │   └── reach_scale                # Reach-scale environment areas
-    ├── canning_river_analysis_data.xlsx
-    │   ├── channel_profile            # For channel gradient analysis
-    │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
-    │   ├── system_scale               # Whole DFS environment areas
-    │   ├── domain_scale               # Proximal/medial/distal environment areas
-    │   └── reach_scale                # Reach-scale environment areas
-    ├── nabesna_river_analysis_data.xlsx
-    │   ├── channel_profile            # For channel gradient analysis
-    │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
-    │   ├── system_scale               # Whole DFS environment areas
-    │   ├── domain_scale               # Proximal/medial/distal environment areas
-    │   └── reach_scale                # Reach-scale environment areas
-    ├── brahmaputra_river_analysis_data.xlsx
-    │   ├── channel_profile            # For channel gradient analysis
-    │   ├── cross_section_scale        # Channel belt, active channel widths and their ratios
-    │   ├── system_scale               # Whole DFS environment areas
-    │   ├── domain_scale               # Proximal/medial/distal environment areas
-    │   └── reach_scale                # Reach-scale environment areas
-    └── unnamed_iranian_dfs_analysis_data.xlsx
-        ├── channel_profile            # For channel gradient analysis
-        ├── cross_section_scale        # Channel belt, active channel widths and their ratios
-        ├── system_scale               # Whole DFS environment areas
-        ├── domain_scale               # Proximal/medial/distal environment areas
-        └── reach_scale                # Reach-scale environment areas
+├── rio_fragua_chorroso_analysis_data.xlsx    # System-specific analysis data
+│   ├── channel_profile                      # For channel gradient analysis
+│   ├── cross_section_scale                  # Channel belt, active channel widths and their ratios
+│   ├── system_scale                         # Whole DFS environment areas
+│   ├── domain_scale                         # Proximal/medial/distal environment areas
+│   └── reach_scale                          # Reach-scale environment areas
+│
+├── canning_river_analysis_data.xlsx         # System-specific analysis data
+│   ├── channel_profile
+│   ├── cross_section_scale
+│   ├── system_scale
+│   ├── domain_scale
+│   └── reach_scale
+│
+├── nabesna_river_analysis_data.xlsx         # System-specific analysis data
+│   ├── channel_profile
+│   ├── cross_section_scale
+│   ├── system_scale
+│   ├── domain_scale
+│   └── reach_scale
+│
+├── brahmaputra_river_analysis_data.xlsx     # System-specific analysis data
+│   ├── channel_profile
+│   ├── cross_section_scale
+│   ├── system_scale
+│   ├── domain_scale
+│   └── reach_scale
+│
+└── unnamed_iranian_dfs_analysis_data.xlsx   # System-specific analysis data
+    ├── channel_profile
+    ├── cross_section_scale
+    ├── system_scale
+    ├── domain_scale
+    └── reach_scale
 ```
 
 ## Data Sources
 
-### Reference Datasets
-
-**`reference-data/hartley_et_al_modern_dfs.xlsx`**  
+**`hartley_et_al_modern_dfs.xlsx`**  
 - Global compilation of 415 modern distributive fluvial systems
 - Statistical and morphometric data for site selection analysis
 - Associated with: Hartley, A.J., Weissmann, G.S., Nichols, G.J. and Warwick, G.L. (2010) 'Large distributive fluvial systems: characteristics, distribution, and controls on development', *Journal of Sedimentary Research*, 80(2), pp.167-183.
 
-**`reference-data/Global_DFS_database.kmz`**  
+**`Global_DFS_database.kmz`**  
 - Google Earth KMZ file for spatial visualisation of distributive fluvial systems
 - Geographic locations (apex and toe coordinates) of documented DFS
 - Compatible with Google Earth Pro and GIS software
@@ -83,7 +84,7 @@ Each system's analysis data is organised in standardised Excel files with multip
 ### For Researchers Using This Methodology
 
 **Step 1: Identify Study Systems**
-- Use `reference-data/Global_DFS_database.kmz` to locate potential DFS
+- Use `Global_DFS_database.kmz` to locate potential DFS
 - Select systems based on research objectives and data availability
 
 **Step 2: Acquire Source Data**
