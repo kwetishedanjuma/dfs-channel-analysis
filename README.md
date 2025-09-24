@@ -1,6 +1,6 @@
 # Distributive Fluvial Systems Channel Analysis
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 ## Overview
@@ -100,7 +100,7 @@ pip install -r requirements.txt
 1. **Site Selection**: Run database analysis to validate system selection
 2. **Profile Extraction**: Extract elevation profiles using ArcGIS tools
 3. **Statistical Analysis**: Process multi-scale (system, domain, cross-section and reach scales) measurements and trends
-4. **Visualization**: Generate publication-quality figures
+4. **Visualisation**: Generate publication-quality figures
 
 ## Key Features
 
@@ -144,7 +144,7 @@ If you use this code or methodology in your research, please cite:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the LICENSE-CC-BY-4.0 License - see the [LICENSE-CC-BY](LICENSE-CC-BY) file for details.
 
 ## Acknowledgments
 
