@@ -43,7 +43,7 @@ Analysis of five representative DFS across different climate zones:
 ```
 dfs-channel-analysis/
 ├── README.md                  # Project documentation (this file)
-├── LICENSE                    # MIT License
+├── LICENSE                    # CC-BY-4.0 License
 ├── requirements.txt           # Python dependencies
 ├── .gitignore                 # Version control exclusions
 │
