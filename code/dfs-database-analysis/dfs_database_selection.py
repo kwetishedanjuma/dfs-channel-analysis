@@ -74,6 +74,11 @@ def main():
     plt.title('Modern DFS (Zoomed) across climate basins')
     plt.savefig('figures/climate_basin_zoomed_in_figure.svg', bbox_inches='tight', facecolor='w')
     plt.show()
-
+    # --- To adapt for tectonic setting zoomed-in version: ---
+    # Change 'data_climate_basins' to your tectonic data variable (e.g., data_tectonic_settings)
+    # Change 'climate_types' to your tectonic types list (e.g., tectonic_types)
+    # Update title/labels and output filename to reflect tectonic setting, e.g.:
+    # plt.title('Modern DFS (Zoomed) across tectonic settings')
+    # plt.savefig('figures/tectonic_setting_zoomed_in_figure.svg', ...)
 if __name__ == "__main__":
     main()
