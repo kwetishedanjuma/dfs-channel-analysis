@@ -178,7 +178,3 @@ For questions about result interpretation or regeneration:
 - See analysis notebook documentation
 - Review code comments for methodology
 - Open repository issues for technical support
-
----
-
-> **Note:** For full results or high-resolution outputs, see [Zenodo/DOI link if available], or regenerate using the provided pipeline.
