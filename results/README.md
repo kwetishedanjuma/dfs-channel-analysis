@@ -47,30 +47,15 @@ results/
 │   ├── domain_scale_normalised_water_area_vs_sediment_area_vs_vegetation_area.svg
 │   ├── cross_section_ols_analysis_summary.csv
 │   ├── reach_scale_ols_analysis_summary.csv
-│   └── ...other figures/tables/CSVs...
+│   └── ...etc.
 │
-├── gis-mapping/                    # All digitised shapefiles for each system, clearly named
-│   ├── rio_fragua_chorroso_channel_belt.shp
-│   ├── rio_fragua_chorroso_water.shp
-│   ├── rio_fragua_chorroso_vegetation.shp
-│   ├── rio_fragua_chorroso_sediment.shp
-│   ├── canning_river_channel_belt.shp
-│   ├── canning_river_water.shp
-│   ├── canning_river_vegetation.shp
-│   ├── canning_river_sediment.shp
-│   ├── nabesna_river_channel_belt.shp
-│   ├── nabesna_river_water.shp
-│   ├── nabesna_river_vegetation.shp
-│   ├── nabesna_river_sediment.shp
-│   ├── brahmaputra_river_channel_belt.shp
-│   ├── brahmaputra_river_water.shp
-│   ├── brahmaputra_river_vegetation.shp
-│   ├── brahmaputra_river_sediment.shp
-│   ├── unnamed_iranian_dfs_channel_belt.shp
-│   ├── unnamed_iranian_dfs_dry_riverbed.shp
-│   ├── unnamed_iranian_dfs_vegetation.shp
-│   ├── unnamed_iranian_dfs_sediment.shp
-│   └── ...other systems and shapefiles...
+├── gis-mapping/                    # Compressed shapefile archives per system
+│   ├── rio_fragua_chorroso_shapefile.7z
+│   ├── canning_river_shapefile.7z
+│   ├── nabesna_river_shapefile.7z
+│   ├── brahmaputra_river_shapefile.7z
+│   ├── unnamed_iranian_dfs_shapefile.7z
+│   └── ...etc.
 ```
 
 ---
@@ -88,8 +73,8 @@ results/
 
 ### GIS Mapping Shapefiles
 - **Folder:** gis-mapping/
-- **Naming:** `[system]_[feature].shp`
-- **Examples:** canning_river_channel_belt.shp
+- **Format:** Each system's shapefiles and associated files are bundled into a single compressed archive (`.7z`)
+- **Examples:** rio_fragua_chorroso_shapefile.7z, canning_river_shapefile.7z
 
 ---
 
@@ -102,8 +87,10 @@ results/
     - `brahmaputra_river` - Brahmaputra River (Subtropical, India)
     - `unnamed_iranian_dfs` - Unnamed Iranian DFS (Drylands, Iran)
 - **Analysis Types:**  
-    - `channel_gradient`, `cross_section_channel_belt_vs_wetted_channel`, `cross_section_wetted_channel_vs_unveg_vs_veg_bars`, `cross_section_normalised_wetted_channel_vs_unveg_vs_veg_bars`, etc.
-    - Multi-system summaries: `system_scale_environment_vs_area.svg`, `domain_scale_water_area_vs_sediment_area_vs_vegetation_area.svg`, etc.
+    - `channel_gradient`, `cross_section_channel_belt_vs_wetted_channel`, `cross_section_wetted_channel_vs_unveg_vs_veg_bars`,  
+      `cross_section_normalised_wetted_channel_vs_unveg_vs_veg_bars`, `cross_section_channel_belt_vs_dry_riverbed`,  
+      `cross_section_dry_riverbed_vs_unveg_vs_veg_bars`, `cross_section_normalised_dry_riverbed_vs_unveg_vs_veg_bars`, etc.
+    - Multi-system summaries: `system_scale_environment_vs_area.svg`, etc.
 
 ---
 
@@ -113,7 +100,8 @@ results/
 statistical-analysis/rio_fragua_chorroso_channel_gradient.svg
 statistical-analysis/canning_river_cross_section_channel_belt_vs_wetted_channel.svg
 statistical-analysis/cross_section_ols_analysis_summary.csv
-gis-mapping/brahmaputra_river_channel_belt.shp
+gis-mapping/brahmaputra_river_shapefile.7z
+gis-mapping/unnamed_iranian_dfs_shapefile.7z
 dfs-database-analysis/tectonic_setting_zoomed_in.svg
 ```
 
@@ -127,11 +115,11 @@ dfs-database-analysis/tectonic_setting_zoomed_in.svg
 
 2. **Profile & Cross-Section Analysis:**  
    - Elevation profiles  
-   - Channel belt, wetted channel, and environmental area measurements  
+   - Channel belt, wetted channel/dry riverbed, and environmental area measurements  
    - Statistical summaries, OLS regressions
 
 3. **Environmental Analysis:**  
-   - Area quantification of wetted channels, vegetated/unvegetated bars
+   - Area quantification of wetted channels/dry riverbeds, vegetated/unvegetated bars
 
 4. **Multi-Scale Statistics:**  
    - System-scale, domain-scale, cross-section, and reach-scale outputs
