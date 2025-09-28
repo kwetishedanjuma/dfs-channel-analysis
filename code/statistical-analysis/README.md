@@ -23,10 +23,10 @@ statistical-analysis/
 │   └── visualisation.py             # Publication-quality plotting functions
 │
 └── configs/                          # Configuration files for .py scripts
-    ├── rio_fragua_chorroso_config.py # Tropical system parameters
-    ├── canning_river_config.py       # Polar system parameters
-    ├── nabesna_river_config.py       # Continental system parameters
-    ├── brahmaputra_river_config.py   # Subtropical system parameters
+    ├── rio_fragua_chorroso_dfs_config.py # Tropical system parameters
+    ├── canning_dfs_config.py       # Polar system parameters
+    ├── nabesna_dfs_config.py       # Continental system parameters
+    ├── brahmaputra_dfs_config.py   # Subtropical system parameters
     └── unnamed_iranian_dfs_config.py # Drylands system parameters
 ```
 
@@ -36,10 +36,10 @@ All analysis datasets are referenced from the centralized `../data/` directory. 
 
 ```
 ../data/
-├── rio_fragua_chorroso_analysis_data.xlsx    # Tropical system dataset
-├── canning_river_analysis_data.xlsx          # Polar system dataset
-├── nabesna_river_analysis_data.xlsx          # Continental system dataset
-├── brahmaputra_river_analysis_data.xlsx      # Subtropical system dataset
+├── rio_fragua_chorroso_dfs_analysis_data.xlsx    # Tropical system dataset
+├── canning_dfs_analysis_data.xlsx          # Polar system dataset
+├── nabesna_dfs_analysis_data.xlsx          # Continental system dataset
+├── brahmaputra_dfs_analysis_data.xlsx      # Subtropical system dataset
 └── unnamed_iranian_dfs_analysis_data.xlsx    # Drylands system dataset
 ```
 
@@ -186,10 +186,10 @@ jupyter lab comparative_analysis.ipynb
 ### Batch Processing (Python Scripts)
 ```bash
 # Individual system analysis using config files
-python dfs_system_analysis.py --config configs/rio_fragua_chorroso_config.py
-python dfs_system_analysis.py --config configs/canning_river_config.py
-python dfs_system_analysis.py --config configs/nabesna_river_config.py
-python dfs_system_analysis.py --config configs/brahmaputra_river_config.py
+python dfs_system_analysis.py --config configs/rio_fragua_chorroso_dfs_config.py
+python dfs_system_analysis.py --config configs/canning_dfs_config.py
+python dfs_system_analysis.py --config configs/nabesna_dfs_config.py
+python dfs_system_analysis.py --config configs/brahmaputra_dfs_config.py
 python dfs_system_analysis.py --config configs/unnamed_iranian_dfs_config.py
 
 # Cross-system comparative analysis
@@ -199,7 +199,7 @@ python comparative_analysis.py
 ### Configuration Files (For .py Scripts Only)
 The Python scripts use configuration files to specify system parameters:
 ```python
-# Example: configs/rio_fragua_chorroso_config.py
+# Example: configs/rio_fragua_chorroso_dfs_config.py
 SYSTEM_NAME = "rio_fragua_chorroso"
 SYSTEM_DISPLAY_NAME = "Río Fragua Chorroso"
 CLIMATE_ZONE = "Tropical"
