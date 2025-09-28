@@ -51,10 +51,10 @@ These scripts provide essential data acquisition capabilities for the manual dig
 
 | System                   | Location         | Apex (lat, lon)                | Toe (lat, lon)                  | Climate       |
 |--------------------------|------------------|--------------------------------|---------------------------------|--------------|
-| **Río Fragua Chorroso**  | Colombia         | 01°19'54.20"N, 75°59'01.07"W   | 01°11'19.58"N, 75°45'21.68"W    | Tropical     |
-| **Canning River**        | Alaska, USA      | 70°10'46.09"N, 146°33'33.23"W  | 69°51'02.62"N, 146°27'40.20"W   | Polar        |
-| **Nabesna River**        | Alaska, USA      | 63°03'15.43"N, 141°57'14.71"W  | 62°47'31.90"N, 142°10'13.80"W   | Continental  |
-| **Brahmaputra River**    | India            | 28°04'11.65"N, 95°21'16.33"E   | 27°41'45.41"N, 95°16'50.47"E    | Subtropical  |
+| **Río Fragua Chorroso DFS**  | Colombia         | 01°19'54.20"N, 75°59'01.07"W   | 01°11'19.58"N, 75°45'21.68"W    | Tropical     |
+| **Canning DFS**        | Alaska, USA      | 70°10'46.09"N, 146°33'33.23"W  | 69°51'02.62"N, 146°27'40.20"W   | Polar        |
+| **Nabesna DFS**        | Alaska, USA      | 63°03'15.43"N, 141°57'14.71"W  | 62°47'31.90"N, 142°10'13.80"W   | Continental  |
+| **Brahmaputra DFS**    | India            | 28°04'11.65"N, 95°21'16.33"E   | 27°41'45.41"N, 95°16'50.47"E    | Subtropical  |
 | **Unnamed Iranian DFS**  | Iran             | 31°58'00.34"N, 58°24'04.15"E   | 31°46'15.03"N, 58°10'15.16"E    | Drylands     |
 
 > **Note:** Coordinates are in degrees, minutes, and seconds (DMS).  
