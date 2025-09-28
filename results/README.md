@@ -50,11 +50,11 @@ results/
 │   └── ...etc.
 │
 ├── gis-mapping/                    # Compressed shapefile archives per system
-│   ├── rio_fragua_chorroso_shapefile.7z
-│   ├── canning_river_shapefile.7z
-│   ├── nabesna_river_shapefile.7z
-│   ├── brahmaputra_river_shapefile.7z
-│   ├── unnamed_iranian_dfs_shapefile.7z
+│   ├── rio_fragua_chorroso_shapefile.zip
+│   ├── canning_river_shapefile.zip
+│   ├── nabesna_river_shapefile.zip
+│   ├── brahmaputra_river_shapefile.zip
+│   ├── unnamed_iranian_dfs_shapefile.zip
 │   └── ...etc.
 ```
 
@@ -73,8 +73,8 @@ results/
 
 ### GIS Mapping Shapefiles
 - **Folder:** gis-mapping/
-- **Format:** Each system's shapefiles and associated files are bundled into a single compressed archive (`.7z`)
-- **Examples:** rio_fragua_chorroso_shapefile.7z, canning_river_shapefile.7z
+- **Format:** Each system's shapefiles and associated files are bundled into a single compressed archive (`.zip`)
+- **Examples:** rio_fragua_chorroso_shapefile.zip, canning_river_shapefile.zip
 
 ---
 
@@ -100,8 +100,8 @@ results/
 statistical-analysis/rio_fragua_chorroso_channel_gradient.svg
 statistical-analysis/canning_river_cross_section_channel_belt_vs_wetted_channel.svg
 statistical-analysis/cross_section_ols_analysis_summary.csv
-gis-mapping/brahmaputra_river_shapefile.7z
-gis-mapping/unnamed_iranian_dfs_shapefile.7z
+gis-mapping/brahmaputra_river_shapefile.zip
+gis-mapping/unnamed_iranian_dfs_shapefile.zip
 dfs-database-analysis/tectonic_setting_zoomed_in.svg
 ```
 
