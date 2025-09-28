@@ -12,28 +12,28 @@ data/
 ├── hartley_et_al_modern_dfs.xlsx         # Modern DFS database
 │   └── Global_DFS_database.kmz           # Spatial visualisation file
 │
-├── rio_fragua_chorroso_analysis_data.xlsx    # System-specific analysis data
+├── rio_fragua_chorroso_dfs_analysis_data.xlsx    # System-specific analysis data
 │   ├── channel_profile                      # For channel gradient analysis
 │   ├── cross_section_scale                  # Channel belt, active channel widths and their ratios
 │   ├── system_scale                         # Whole DFS environment areas
 │   ├── domain_scale                         # Proximal/medial/distal environment areas
 │   └── reach_scale                          # Reach-scale environment areas
 │
-├── canning_river_analysis_data.xlsx         # System-specific analysis data
+├── canning_dfs_analysis_data.xlsx         # System-specific analysis data
 │   ├── channel_profile
 │   ├── cross_section_scale
 │   ├── system_scale
 │   ├── domain_scale
 │   └── reach_scale
 │
-├── nabesna_river_analysis_data.xlsx         # System-specific analysis data
+├── nabesna_dfs_analysis_data.xlsx         # System-specific analysis data
 │   ├── channel_profile
 │   ├── cross_section_scale
 │   ├── system_scale
 │   ├── domain_scale
 │   └── reach_scale
 │
-├── brahmaputra_river_analysis_data.xlsx     # System-specific analysis data
+├── brahmaputra_dfs_analysis_data.xlsx     # System-specific analysis data
 │   ├── channel_profile
 │   ├── cross_section_scale
 │   ├── system_scale
@@ -114,10 +114,10 @@ Each system's analysis data is organised in standardised Excel files with multip
 - **Format**: `{system_name}_{data_type}.{extension}`
 - **Example**: `rio_fragua_chorroso_analysis_data.xlsx`
 - **System Names (Climate Order)**: 
-  - `rio_fragua_chorroso` (Tropical, Colombia)
-  - `canning_river` (Polar, Alaska)
-  - `nabesna_river` (Continental, Alaska)
-  - `brahmaputra_river` (Subtropical, India)
+  - `rio_fragua_chorroso_dfs` (Tropical, Colombia)
+  - `canning_dfs` (Polar, Alaska)
+  - `nabesna_dfs` (Continental, Alaska)
+  - `brahmaputra_dfs` (Subtropical, India)
   - `unnamed_iranian_dfs` (Drylands, Iran)
 
 ### Excel Sheet Organisation
