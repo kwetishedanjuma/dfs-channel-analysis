@@ -22,22 +22,22 @@ results/
 │   └── ...etc.
 │
 ├── statistical-analysis/           # All figures/tables from system and cross-system analysis
-│   ├── rio_fragua_chorroso_channel_gradient.svg
-│   ├── rio_fragua_chorroso_cross_section_channel_belt_vs_wetted_channel.svg
-│   ├── rio_fragua_chorroso_cross_section_wetted_channel_vs_unveg_vs_veg_bars.svg
-│   ├── rio_fragua_chorroso_cross_section_normalised_wetted_channel_vs_unveg_vs_veg_bars.svg
-│   ├── canning_river_channel_gradient.svg
-│   ├── canning_river_cross_section_channel_belt_vs_wetted_channel.svg
-│   ├── canning_river_cross_section_wetted_channel_vs_unveg_vs_veg_bars.svg
-│   ├── canning_river_cross_section_normalised_wetted_channel_vs_unveg_vs_veg_bars.svg
-│   ├── nabesna_river_channel_gradient.svg
-│   ├── nabesna_river_cross_section_channel_belt_vs_wetted_channel.svg
-│   ├── nabesna_river_cross_section_wetted_channel_vs_unveg_vs_veg_bars.svg
-│   ├── nabesna_river_cross_section_normalised_wetted_channel_vs_unveg_vs_veg_bars.svg
-│   ├── brahmaputra_river_channel_gradient.svg
-│   ├── brahmaputra_river_cross_section_channel_belt_vs_wetted_channel.svg
-│   ├── brahmaputra_river_cross_section_wetted_channel_vs_unveg_vs_veg_bars.svg
-│   ├── brahmaputra_river_cross_section_normalised_wetted_channel_vs_unveg_vs_veg_bars.svg
+│   ├── rio_fragua_chorroso_dfs_channel_gradient.svg
+│   ├── rio_fragua_chorroso_dfs_cross_section_channel_belt_vs_wetted_channel.svg
+│   ├── rio_fragua_chorroso_dfs_cross_section_wetted_channel_vs_unveg_vs_veg_bars.svg
+│   ├── rio_fragua_chorroso_dfs_cross_section_normalised_wetted_channel_vs_unveg_vs_veg_bars.svg
+│   ├── canning_dfs_channel_gradient.svg
+│   ├── canning_dfs_cross_section_channel_belt_vs_wetted_channel.svg
+│   ├── canning_dfs_cross_section_wetted_channel_vs_unveg_vs_veg_bars.svg
+│   ├── canning_dfs_cross_section_normalised_wetted_channel_vs_unveg_vs_veg_bars.svg
+│   ├── nabesna_dfs_channel_gradient.svg
+│   ├── nabesna_dfs_cross_section_channel_belt_vs_wetted_channel.svg
+│   ├── nabesna_dfs_cross_section_wetted_channel_vs_unveg_vs_veg_bars.svg
+│   ├── nabesna_dfs_cross_section_normalised_wetted_channel_vs_unveg_vs_veg_bars.svg
+│   ├── brahmaputra_dfs_channel_gradient.svg
+│   ├── brahmaputra_dfs_cross_section_channel_belt_vs_wetted_channel.svg
+│   ├── brahmaputra_dfs_cross_section_wetted_channel_vs_unveg_vs_veg_bars.svg
+│   ├── brahmaputra_dfs_cross_section_normalised_wetted_channel_vs_unveg_vs_veg_bars.svg
 │   ├── unnamed_iranian_dfs_channel_gradient.svg
 │   ├── unnamed_iranian_dfs_cross_section_channel_belt_vs_dry_riverbed.svg
 │   ├── unnamed_iranian_dfs_cross_section_dry_riverbed_vs_unveg_vs_veg_bars.svg
@@ -48,13 +48,21 @@ results/
 │   ├── cross_section_ols_analysis_summary.csv
 │   ├── reach_scale_ols_analysis_summary.csv
 │   └── ...etc.
-│
+|
+│├── google-earth-engine/                    # elevation data downloaded using google earth engine code
+│   ├── rio_fragua_chorroso_dfs_SRTM.zip
+│   ├── canning_dfs_ArcticDEM.zip
+│   ├── nabesna_dfs_ArcticDEM.zip
+│   ├── brahmaputra_dfs_SRTM.zip
+│   ├── unnamed_iranian_dfs_SRTM.zip
+│   └── ...etc.
+|
 ├── gis-mapping/                    # Compressed shapefile archives per system
-│   ├── rio_fragua_chorroso_shapefile.zip
-│   ├── canning_river_shapefile.zip
-│   ├── nabesna_river_shapefile.zip
-│   ├── brahmaputra_river_shapefile.zip
-│   ├── unnamed_iranian_dfs_shapefile.zip
+│   ├── rio_fragua_chorroso_dfs_shapefiles.zip
+│   ├── canning_dfs_shapefiles.zip
+│   ├── nabesna_dfs_shapefiles.zip
+│   ├── brahmaputra_dfs_shapefiles.zip
+│   ├── unnamed_iranian_dfs_shapefiles.zip
 │   └── ...etc.
 ```
 
@@ -74,17 +82,17 @@ results/
 ### GIS Mapping Shapefiles
 - **Folder:** gis-mapping/
 - **Format:** Each system's shapefiles and associated files are bundled into a single compressed archive (`.zip`)
-- **Examples:** rio_fragua_chorroso_shapefile.zip, canning_river_shapefile.zip
+- **Examples:** rio_fragua_chorroso_dfs_shapefiles.zip, canning_dfs_shapefiles.zip
 
 ---
 
 ## File Naming Convention
 
 - **System Names:**
-    - `rio_fragua_chorroso` - Río Fragua Chorroso (Tropical, Colombia)
-    - `canning_river` - Canning River (Polar, Alaska)
-    - `nabesna_river` - Nabesna River (Continental, Alaska)
-    - `brahmaputra_river` - Brahmaputra River (Subtropical, India)
+    - `rio_fragua_chorroso_dfs` - Río Fragua Chorroso (Tropical, Colombia)
+    - `canning_dfs` - Canning River (Polar, Alaska)
+    - `nabesna_dfs` - Nabesna River (Continental, Alaska)
+    - `brahmaputra_dfs` - Brahmaputra River (Subtropical, India)
     - `unnamed_iranian_dfs` - Unnamed Iranian DFS (Drylands, Iran)
 - **Analysis Types:**  
     - `channel_gradient`, `cross_section_channel_belt_vs_wetted_channel`, `cross_section_wetted_channel_vs_unveg_vs_veg_bars`,  
@@ -97,11 +105,11 @@ results/
 ## Example Files
 
 ```
-statistical-analysis/rio_fragua_chorroso_channel_gradient.svg
-statistical-analysis/canning_river_cross_section_channel_belt_vs_wetted_channel.svg
+statistical-analysis/rio_fragua_chorroso_dfs_channel_gradient.svg
+statistical-analysis/canning_dfs_cross_section_channel_belt_vs_wetted_channel.svg
 statistical-analysis/cross_section_ols_analysis_summary.csv
-gis-mapping/brahmaputra_river_shapefile.zip
-gis-mapping/unnamed_iranian_dfs_shapefile.zip
+gis-mapping/brahmaputra_dfs_shapefiles.zip
+gis-mapping/unnamed_iranian_dfs_shapefiles.zip
 dfs-database-analysis/tectonic_setting_zoomed_in.svg
 ```
 
