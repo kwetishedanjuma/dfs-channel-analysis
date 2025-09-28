@@ -59,10 +59,10 @@ dfs-channel-analysis/
 │   ├── .gitkeep               # Keeps empty folders in git
 │   ├── hartley_et_al_modern_dfs.xlsx         # Modern DFS database
 │   ├── Global_DFS_database.kmz               # Spatial visualisation file
-│   ├── rio_fragua_chorroso_analysis_data.xlsx      # System-specific analysis data
-│   ├── canning_river_analysis_data.xlsx             # System-specific analysis data
-│   ├── nabesna_river_analysis_data.xlsx             # System-specific analysis data
-│   ├── brahmaputra_river_analysis_data.xlsx         # System-specific analysis data
+│   ├── rio_fragua_chorroso_dfs_analysis_data.xlsx      # System-specific analysis data
+│   ├── canning_dfs_analysis_data.xlsx             # System-specific analysis data
+│   ├── nabesna_dfs_analysis_data.xlsx             # System-specific analysis data
+│   ├── brahmaputra_dfs_analysis_data.xlsx         # System-specific analysis data
 │   └── unnamed_iranian_dfs_analysis_data.xlsx       # System-specific analysis data
 │
 └── results/                   # Analysis outputs (NOT tracked in git; use .gitignore)
