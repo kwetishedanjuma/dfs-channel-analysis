@@ -49,7 +49,7 @@ results/
 │   ├── reach_scale_ols_analysis_summary.csv
 │   └── ...etc.
 |
-│├── google-earth-engine/                    # elevation data downloaded using google earth engine code
+├── google-earth-engine/                    # elevation data downloaded using google earth engine code
 │   ├── rio_fragua_chorroso_dfs_SRTM.zip
 │   ├── canning_dfs_ArcticDEM.zip
 │   ├── nabesna_dfs_ArcticDEM.zip
