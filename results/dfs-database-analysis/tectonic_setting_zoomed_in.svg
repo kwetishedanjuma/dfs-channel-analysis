@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+
+<svg
+   height="291.410812pt"
+   version="1.1"
+   viewBox="0 0 400.8325 291.410812"
+   width="400.8325pt"
+   id="svg147"
+   sodipodi:docname="tectonic_setting_zoomed_in_figure.svg"
+   inkscape:export-filename="tectonic_setting_zoomed_in_figure.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview147"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="2.9417235"
+     inkscape:cx="267.1903"
+     inkscape:cy="167.07892"
+     inkscape:window-width="3440"
+     inkscape:window-height="1361"
+     inkscape:window-x="4636"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg147" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:date>2021-09-28T11:13:53.779818</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Matplotlib v3.3.2, https://matplotlib.org/</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1">
+    <style
+       type="text/css"
+       id="style1">*{stroke-linecap:butt;stroke-linejoin:round;}</style>
+  </defs>
+  <g
+     id="figure_1">
+    <g
+       id="patch_1">
+      <path
+         d="M 0 291.410812  L 400.8325 291.410812  L 400.8325 0  L 0 0  z "
+         style="fill:#ffffff;"
+         id="path1" />
+    </g>
+    <g
+       id="axes_1">
+      <g
+         id="patch_2">
+        <path
+           d="M 29.2 268.128  L 386.32 268.128  L 386.32 7.2  L 29.2 7.2  z "
+           style="fill:#ffffff;"
+           id="path2" />
+      </g>
+      <g
+         id="patch_3">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 45.148265 268.128  L 81.486083 268.128  L 81.486083 249.644316  L 45.148265 249.644316  z "
+           style="fill:#1f77b4;"
+           id="path3" />
+      </g>
+      <g
+         id="patch_4">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 85.523618 268.128  L 121.861436 268.128  L 121.861436 255.805544  L 85.523618 255.805544  z "
+           style="fill:#1f77b4;"
+           id="path4" />
+      </g>
+      <g
+         id="patch_5">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 125.898971 268.128  L 162.236789 268.128  L 162.236789 264.020515  L 125.898971 264.020515  z "
+           style="fill:#1f77b4;"
+           id="path5" />
+      </g>
+      <g
+         id="patch_6">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 166.274324 268.128  L 202.612142 268.128  L 202.612142 268.128  L 166.274324 268.128  z "
+           style="fill:#1f77b4;"
+           id="path6" />
+      </g>
+      <g
+         id="patch_7">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 206.649678 268.128  L 242.987496 268.128  L 242.987496 266.074257  L 206.649678 266.074257  z "
+           style="fill:#1f77b4;"
+           id="path7" />
+      </g>
+      <g
+         id="patch_8">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 247.025031 268.128  L 283.362849 268.128  L 283.362849 266.074257  L 247.025031 266.074257  z "
+           style="fill:#1f77b4;"
+           id="path8" />
+      </g>
+      <g
+         id="patch_9">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 287.400384 268.128  L 323.738202 268.128  L 323.738202 268.128  L 287.400384 268.128  z "
+           style="fill:#1f77b4;"
+           id="path9" />
+      </g>
+      <g
+         id="patch_10">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 327.775738 268.128  L 364.113556 268.128  L 364.113556 268.128  L 327.775738 268.128  z "
+           style="fill:#1f77b4;"
+           id="path10" />
+      </g>
+      <g
+         id="patch_11">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 45.148265 249.644316  L 81.486083 249.644316  L 81.486083 224.999405  L 45.148265 224.999405  z "
+           style="fill:#ff7f0e;"
+           id="path11" />
+      </g>
+      <g
+         id="patch_12">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 85.523618 255.805544  L 121.861436 255.805544  L 121.861436 245.536831  L 85.523618 245.536831  z "
+           style="fill:#ff7f0e;"
+           id="path12" />
+      </g>
+      <g
+         id="patch_13">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 125.898971 264.020515  L 162.236789 264.020515  L 162.236789 243.483089  L 125.898971 243.483089  z "
+           style="fill:#ff7f0e;"
+           id="path13" />
+      </g>
+      <g
+         id="patch_14">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 166.274324 268.128  L 202.612142 268.128  L 202.612142 255.805544  L 166.274324 255.805544  z "
+           style="fill:#ff7f0e;"
+           id="path14" />
+      </g>
+      <g
+         id="patch_15">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 206.649678 266.074257  L 242.987496 266.074257  L 242.987496 264.020515  L 206.649678 264.020515  z "
+           style="fill:#ff7f0e;"
+           id="path15" />
+      </g>
+      <g
+         id="patch_16">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 247.025031 266.074257  L 283.362849 266.074257  L 283.362849 264.020515  L 247.025031 264.020515  z "
+           style="fill:#ff7f0e;"
+           id="path16" />
+      </g>
+      <g
+         id="patch_17">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 287.400384 268.128  L 323.738202 268.128  L 323.738202 268.128  L 287.400384 268.128  z "
+           style="fill:#ff7f0e;"
+           id="path17" />
+      </g>
+      <g
+         id="patch_18">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 327.775738 268.128  L 364.113556 268.128  L 364.113556 261.966772  L 327.775738 261.966772  z "
+           style="fill:#ff7f0e;"
+           id="path18" />
+      </g>
+      <g
+         id="patch_19">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 45.148265 224.999405  L 81.486083 224.999405  L 81.486083 183.924553  L 45.148265 183.924553  z "
+           style="fill:#2ca02c;"
+           id="path19" />
+      </g>
+      <g
+         id="patch_20">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 85.523618 245.536831  L 121.861436 245.536831  L 121.861436 233.214375  L 85.523618 233.214375  z "
+           style="fill:#2ca02c;"
+           id="path20" />
+      </g>
+      <g
+         id="patch_21">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 125.898971 243.483089  L 162.236789 243.483089  L 162.236789 218.838177  L 125.898971 218.838177  z "
+           style="fill:#2ca02c;"
+           id="path21" />
+      </g>
+      <g
+         id="patch_22">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 166.274324 255.805544  L 202.612142 255.805544  L 202.612142 251.698059  L 166.274324 251.698059  z "
+           style="fill:#2ca02c;"
+           id="path22" />
+      </g>
+      <g
+         id="patch_23">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 206.649678 264.020515  L 242.987496 264.020515  L 242.987496 259.91303  L 206.649678 259.91303  z "
+           style="fill:#2ca02c;"
+           id="path23" />
+      </g>
+      <g
+         id="patch_24">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 247.025031 264.020515  L 283.362849 264.020515  L 283.362849 255.805544  L 247.025031 255.805544  z "
+           style="fill:#2ca02c;"
+           id="path24" />
+      </g>
+      <g
+         id="patch_25">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 287.400384 268.128  L 323.738202 268.128  L 323.738202 261.966772  L 287.400384 261.966772  z "
+           style="fill:#2ca02c;"
+           id="path25" />
+      </g>
+      <g
+         id="patch_26">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 327.775738 261.966772  L 364.113556 261.966772  L 364.113556 257.859287  L 327.775738 257.859287  z "
+           style="fill:#2ca02c;"
+           id="path26" />
+      </g>
+      <g
+         id="patch_27">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 45.148265 183.924553  L 81.486083 183.924553  L 81.486083 58.646253  L 45.148265 58.646253  z "
+           style="fill:#d62728;"
+           id="path27" />
+      </g>
+      <g
+         id="patch_28">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 85.523618 233.214375  L 121.861436 233.214375  L 121.861436 153.118413  L 85.523618 153.118413  z "
+           style="fill:#d62728;"
+           id="path28" />
+      </g>
+      <g
+         id="patch_29">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 125.898971 218.838177  L 162.236789 218.838177  L 162.236789 155.172156  L 125.898971 155.172156  z "
+           style="fill:#d62728;"
+           id="path29" />
+      </g>
+      <g
+         id="patch_30">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 166.274324 251.698059  L 202.612142 251.698059  L 202.612142 218.838177  L 166.274324 218.838177  z "
+           style="fill:#d62728;"
+           id="path30" />
+      </g>
+      <g
+         id="patch_31">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 206.649678 259.91303  L 242.987496 259.91303  L 242.987496 241.429346  L 206.649678 241.429346  z "
+           style="fill:#d62728;"
+           id="path31" />
+      </g>
+      <g
+         id="patch_32">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 247.025031 255.805544  L 283.362849 255.805544  L 283.362849 243.483089  L 247.025031 243.483089  z "
+           style="fill:#d62728;"
+           id="path32" />
+      </g>
+      <g
+         id="patch_33">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 287.400384 261.966772  L 323.738202 261.966772  L 323.738202 247.590574  L 287.400384 247.590574  z "
+           style="fill:#d62728;"
+           id="path33" />
+      </g>
+      <g
+         id="patch_34">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 327.775738 257.859287  L 364.113556 257.859287  L 364.113556 245.536831  L 327.775738 245.536831  z "
+           style="fill:#d62728;"
+           id="path34" />
+      </g>
+      <g
+         id="patch_35">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 45.148265 58.646253  L 81.486083 58.646253  L 81.486083 19.625143  L 45.148265 19.625143  z "
+           style="fill:#9467bd;"
+           id="path35" />
+      </g>
+      <g
+         id="patch_36">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 85.523618 153.118413  L 121.861436 153.118413  L 121.861436 138.742215  L 85.523618 138.742215  z "
+           style="fill:#9467bd;"
+           id="path36" />
+      </g>
+      <g
+         id="patch_37">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 125.898971 155.172156  L 162.236789 155.172156  L 162.236789 138.742215  L 125.898971 138.742215  z "
+           style="fill:#9467bd;"
+           id="path37" />
+      </g>
+      <g
+         id="patch_38">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 166.274324 218.838177  L 202.612142 218.838177  L 202.612142 208.569464  L 166.274324 208.569464  z "
+           style="fill:#9467bd;"
+           id="path38" />
+      </g>
+      <g
+         id="patch_39">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 206.649678 241.429346  L 242.987496 241.429346  L 242.987496 235.268118  L 206.649678 235.268118  z "
+           style="fill:#9467bd;"
+           id="path39" />
+      </g>
+      <g
+         id="patch_40">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 247.025031 243.483089  L 283.362849 243.483089  L 283.362849 241.429346  L 247.025031 241.429346  z "
+           style="fill:#9467bd;"
+           id="path40" />
+      </g>
+      <g
+         id="patch_41">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 287.400384 247.590574  L 323.738202 247.590574  L 323.738202 245.536831  L 287.400384 245.536831  z "
+           style="fill:#9467bd;"
+           id="path41" />
+      </g>
+      <g
+         id="patch_42">
+        <path
+           clip-path="url(#pdb92424b9e)"
+           d="M 327.775738 245.536831  L 364.113556 245.536831  L 364.113556 245.536831  L 327.775738 245.536831  z "
+           style="fill:#9467bd;"
+           id="path42" />
+      </g>
+      <g
+         id="matplotlib.axis_1">
+        <g
+           id="xtick_1">
+          <g
+             id="line2d_1">
+            <defs
+               id="defs42">
+              <path
+                 d="M 0 0  L 0 3.5  "
+                 id="m90e68be9c4"
+                 style="stroke:#000000;stroke-width:0.8;" />
+            </defs>
+            <g
+               id="g42">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="63.317174"
+                 xlink:href="#m90e68be9c4"
+                 y="268.128"
+                 id="use42" />
+            </g>
+          </g>
+          <g
+             id="text_1">
+            <!-- 30 -->
+            <g
+               transform="translate(58.317174 282.07175)scale(0.1 -0.1)"
+               id="g44">
+              <defs
+                 id="defs43">
+                <path
+                   d="M 5.078125 53.609375  Q 7.90625 60.296875 12.21875 63.9375  Q 16.546875 67.578125 23 67.578125  Q 30.953125 67.578125 35.203125 62.40625  Q 38.421875 58.546875 38.421875 54.15625  Q 38.421875 46.921875 29.34375 39.203125  Q 35.453125 36.8125 38.578125 32.375  Q 41.703125 27.9375 41.703125 21.921875  Q 41.703125 13.328125 36.234375 7.03125  Q 29.109375 -1.171875 15.578125 -1.171875  Q 8.890625 -1.171875 6.46875 0.484375  Q 4.046875 2.15625 4.046875 4.046875  Q 4.046875 5.46875 5.1875 6.546875  Q 6.34375 7.625 7.953125 7.625  Q 9.1875 7.625 10.453125 7.234375  Q 11.28125 6.984375 14.203125 5.4375  Q 17.140625 3.90625 18.265625 3.609375  Q 20.0625 3.078125 22.125 3.078125  Q 27.09375 3.078125 30.78125 6.9375  Q 34.46875 10.796875 34.46875 16.0625  Q 34.46875 19.921875 32.765625 23.578125  Q 31.5 26.3125 29.984375 27.734375  Q 27.875 29.6875 24.21875 31.265625  Q 20.5625 32.859375 16.75 32.859375  L 15.1875 32.859375  L 15.1875 34.328125  Q 19.046875 34.8125 22.921875 37.109375  Q 26.8125 39.40625 28.5625 42.625  Q 30.328125 45.84375 30.328125 49.703125  Q 30.328125 54.734375 27.171875 57.828125  Q 24.03125 60.9375 19.34375 60.9375  Q 11.765625 60.9375 6.6875 52.828125  z "
+                   id="TimesNewRomanPSMT-51" />
+                <path
+                   d="M 3.609375 32.71875  Q 3.609375 44.046875 7.03125 52.21875  Q 10.453125 60.40625 16.109375 64.40625  Q 20.515625 67.578125 25.203125 67.578125  Q 32.8125 67.578125 38.875 59.8125  Q 46.4375 50.203125 46.4375 33.734375  Q 46.4375 22.21875 43.109375 14.15625  Q 39.796875 6.109375 34.640625 2.46875  Q 29.5 -1.171875 24.703125 -1.171875  Q 15.234375 -1.171875 8.9375 10.015625  Q 3.609375 19.4375 3.609375 32.71875  z M 13.1875 31.5  Q 13.1875 17.828125 16.546875 9.1875  Q 19.34375 1.90625 24.859375 1.90625  Q 27.484375 1.90625 30.3125 4.265625  Q 33.15625 6.640625 34.625 12.203125  Q 36.859375 20.609375 36.859375 35.890625  Q 36.859375 47.21875 34.515625 54.78125  Q 32.765625 60.40625 29.984375 62.75  Q 27.984375 64.359375 25.140625 64.359375  Q 21.828125 64.359375 19.234375 61.375  Q 15.71875 57.328125 14.453125 48.625  Q 13.1875 39.9375 13.1875 31.5  z "
+                   id="TimesNewRomanPSMT-48" />
+              </defs>
+              <use
+                 xlink:href="#TimesNewRomanPSMT-51"
+                 id="use43" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use44" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="xtick_2">
+          <g
+             id="line2d_2">
+            <g
+               id="g45">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="103.692527"
+                 xlink:href="#m90e68be9c4"
+                 y="268.128"
+                 id="use45" />
+            </g>
+          </g>
+          <g
+             id="text_2">
+            <!-- 40 -->
+            <g
+               transform="translate(98.692527 282.07175)scale(0.1 -0.1)"
+               id="g47">
+              <defs
+                 id="defs45">
+                <path
+                   d="M 46.53125 24.421875  L 46.53125 17.484375  L 37.640625 17.484375  L 37.640625 0  L 29.59375 0  L 29.59375 17.484375  L 1.5625 17.484375  L 1.5625 23.734375  L 32.28125 67.578125  L 37.640625 67.578125  L 37.640625 24.421875  z M 29.59375 24.421875  L 29.59375 57.28125  L 6.34375 24.421875  z "
+                   id="TimesNewRomanPSMT-52" />
+              </defs>
+              <use
+                 xlink:href="#TimesNewRomanPSMT-52"
+                 id="use46" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use47" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="xtick_3">
+          <g
+             id="line2d_3">
+            <g
+               id="g48">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="144.06788"
+                 xlink:href="#m90e68be9c4"
+                 y="268.128"
+                 id="use48" />
+            </g>
+          </g>
+          <g
+             id="text_3">
+            <!-- 50 -->
+            <g
+               transform="translate(139.06788 282.07175)scale(0.1 -0.1)"
+               id="g50">
+              <defs
+                 id="defs48">
+                <path
+                   d="M 43.40625 66.21875  L 39.59375 57.90625  L 19.671875 57.90625  L 15.328125 49.03125  Q 28.265625 47.125 35.84375 39.40625  Q 42.328125 32.765625 42.328125 23.78125  Q 42.328125 18.5625 40.203125 14.109375  Q 38.09375 9.671875 34.859375 6.546875  Q 31.640625 3.421875 27.6875 1.515625  Q 22.078125 -1.171875 16.15625 -1.171875  Q 10.203125 -1.171875 7.484375 0.84375  Q 4.78125 2.875 4.78125 5.328125  Q 4.78125 6.6875 5.90625 7.734375  Q 7.03125 8.796875 8.734375 8.796875  Q 10.015625 8.796875 10.96875 8.40625  Q 11.921875 8.015625 14.203125 6.390625  Q 17.875 3.859375 21.625 3.859375  Q 27.34375 3.859375 31.65625 8.171875  Q 35.984375 12.5 35.984375 18.703125  Q 35.984375 24.703125 32.125 29.90625  Q 28.265625 35.109375 21.484375 37.9375  Q 16.15625 40.140625 6.984375 40.484375  L 19.671875 66.21875  z "
+                   id="TimesNewRomanPSMT-53" />
+              </defs>
+              <use
+                 xlink:href="#TimesNewRomanPSMT-53"
+                 id="use49" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use50" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="xtick_4">
+          <g
+             id="line2d_4">
+            <g
+               id="g51">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="184.443233"
+                 xlink:href="#m90e68be9c4"
+                 y="268.128"
+                 id="use51" />
+            </g>
+          </g>
+          <g
+             id="text_4">
+            <!-- 60 -->
+            <g
+               transform="translate(179.443233 282.07175)scale(0.1 -0.1)"
+               id="g53">
+              <defs
+                 id="defs51">
+                <path
+                   d="M 44.828125 67.578125  L 44.828125 65.765625  Q 38.375 65.140625 34.296875 63.203125  Q 30.21875 61.28125 26.234375 57.328125  Q 22.265625 53.375 19.65625 48.515625  Q 17.046875 43.65625 15.28125 36.96875  Q 22.3125 41.796875 29.390625 41.796875  Q 36.1875 41.796875 41.15625 36.328125  Q 46.140625 30.859375 46.140625 22.265625  Q 46.140625 13.96875 41.109375 7.125  Q 35.0625 -1.171875 25.09375 -1.171875  Q 18.3125 -1.171875 13.578125 3.328125  Q 4.296875 12.0625 4.296875 25.984375  Q 4.296875 34.859375 7.859375 42.859375  Q 11.421875 50.875 18.03125 57.078125  Q 24.65625 63.28125 30.703125 65.421875  Q 36.765625 67.578125 42 67.578125  z M 14.453125 33.40625  Q 13.578125 26.8125 13.578125 22.75  Q 13.578125 18.0625 15.3125 12.5625  Q 17.046875 7.078125 20.453125 3.859375  Q 22.953125 1.5625 26.515625 1.5625  Q 30.765625 1.5625 34.109375 5.5625  Q 37.453125 9.578125 37.453125 17  Q 37.453125 25.34375 34.125 31.4375  Q 30.8125 37.546875 24.703125 37.546875  Q 22.859375 37.546875 20.734375 36.765625  Q 18.609375 35.984375 14.453125 33.40625  z "
+                   id="TimesNewRomanPSMT-54" />
+              </defs>
+              <use
+                 xlink:href="#TimesNewRomanPSMT-54"
+                 id="use52" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use53" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="xtick_5">
+          <g
+             id="line2d_5">
+            <g
+               id="g54">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="224.818587"
+                 xlink:href="#m90e68be9c4"
+                 y="268.128"
+                 id="use54" />
+            </g>
+          </g>
+          <g
+             id="text_5">
+            <!-- 70 -->
+            <g
+               transform="translate(219.818587 282.07175)scale(0.1 -0.1)"
+               id="g56">
+              <defs
+                 id="defs54">
+                <path
+                   d="M 10.0625 66.21875  L 45.5625 66.21875  L 45.5625 64.359375  L 23.484375 -1.375  L 18.015625 -1.375  L 37.796875 58.25  L 19.578125 58.25  Q 14.0625 58.25 11.71875 56.9375  Q 7.625 54.6875 5.125 50  L 3.71875 50.53125  z "
+                   id="TimesNewRomanPSMT-55" />
+              </defs>
+              <use
+                 xlink:href="#TimesNewRomanPSMT-55"
+                 id="use55" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use56" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="xtick_6">
+          <g
+             id="line2d_6">
+            <g
+               id="g57">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="265.19394"
+                 xlink:href="#m90e68be9c4"
+                 y="268.128"
+                 id="use57" />
+            </g>
+          </g>
+          <g
+             id="text_6">
+            <!-- 80 -->
+            <g
+               transform="translate(260.19394 282.07175)scale(0.1 -0.1)"
+               id="g59">
+              <defs
+                 id="defs57">
+                <path
+                   d="M 19.1875 33.34375  Q 11.328125 39.796875 9.046875 43.703125  Q 6.78125 47.609375 6.78125 51.8125  Q 6.78125 58.25 11.765625 62.90625  Q 16.75 67.578125 25 67.578125  Q 33.015625 67.578125 37.890625 63.234375  Q 42.78125 58.890625 42.78125 53.328125  Q 42.78125 49.609375 40.140625 45.75  Q 37.5 41.890625 29.15625 36.671875  Q 37.75 30.03125 40.53125 26.21875  Q 44.234375 21.234375 44.234375 15.71875  Q 44.234375 8.734375 38.90625 3.78125  Q 33.59375 -1.171875 24.953125 -1.171875  Q 15.53125 -1.171875 10.25 4.734375  Q 6.0625 9.46875 6.0625 15.09375  Q 6.0625 19.484375 9.015625 23.796875  Q 11.96875 28.125 19.1875 33.34375  z M 26.859375 38.578125  Q 32.71875 43.84375 34.28125 46.890625  Q 35.84375 49.953125 35.84375 53.8125  Q 35.84375 58.9375 32.953125 61.84375  Q 30.078125 64.75 25.09375 64.75  Q 20.125 64.75 17 61.859375  Q 13.875 58.984375 13.875 55.125  Q 13.875 52.59375 15.15625 50.046875  Q 16.453125 47.515625 18.84375 45.21875  z M 21.484375 31.5  Q 17.4375 28.078125 15.484375 24.046875  Q 13.53125 20.015625 13.53125 15.328125  Q 13.53125 9.03125 16.96875 5.25  Q 20.40625 1.46875 25.734375 1.46875  Q 31 1.46875 34.171875 4.4375  Q 37.359375 7.421875 37.359375 11.671875  Q 37.359375 15.1875 35.5 17.96875  Q 32.03125 23.140625 21.484375 31.5  z "
+                   id="TimesNewRomanPSMT-56" />
+              </defs>
+              <use
+                 xlink:href="#TimesNewRomanPSMT-56"
+                 id="use58" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use59" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="xtick_7">
+          <g
+             id="line2d_7">
+            <g
+               id="g60">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="305.569293"
+                 xlink:href="#m90e68be9c4"
+                 y="268.128"
+                 id="use60" />
+            </g>
+          </g>
+          <g
+             id="text_7">
+            <!-- 90 -->
+            <g
+               transform="translate(300.569293 282.07175)scale(0.1 -0.1)"
+               id="g62">
+              <defs
+                 id="defs60">
+                <path
+                   d="M 5.28125 -1.375  L 5.28125 0.4375  Q 11.625 0.53125 17.09375 3.390625  Q 22.5625 6.25 27.65625 13.375  Q 32.765625 20.515625 34.765625 29.046875  Q 27.09375 24.125 20.90625 24.125  Q 13.921875 24.125 8.9375 29.515625  Q 3.953125 34.90625 3.953125 43.84375  Q 3.953125 52.546875 8.9375 59.328125  Q 14.9375 67.578125 24.609375 67.578125  Q 32.765625 67.578125 38.578125 60.84375  Q 45.703125 52.484375 45.703125 40.234375  Q 45.703125 29.203125 40.28125 19.65625  Q 34.859375 10.109375 25.203125 3.8125  Q 17.328125 -1.375 8.0625 -1.375  z M 35.546875 32.671875  Q 36.421875 39.015625 36.421875 42.828125  Q 36.421875 47.5625 34.8125 53.046875  Q 33.203125 58.546875 30.25 61.46875  Q 27.296875 64.40625 23.53125 64.40625  Q 19.1875 64.40625 15.90625 60.5  Q 12.640625 56.59375 12.640625 48.875  Q 12.640625 38.578125 17 32.765625  Q 20.171875 28.5625 24.8125 28.5625  Q 27.046875 28.5625 30.125 29.640625  Q 33.203125 30.71875 35.546875 32.671875  z "
+                   id="TimesNewRomanPSMT-57" />
+              </defs>
+              <use
+                 xlink:href="#TimesNewRomanPSMT-57"
+                 id="use61" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use62" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="xtick_8">
+          <g
+             id="line2d_8">
+            <g
+               id="g63">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="345.944647"
+                 xlink:href="#m90e68be9c4"
+                 y="268.128"
+                 id="use63" />
+            </g>
+          </g>
+          <g
+             id="text_8">
+            <!-- 100 -->
+            <g
+               transform="translate(338.444647 282.07175)scale(0.1 -0.1)"
+               id="g66">
+              <defs
+                 id="defs63">
+                <path
+                   d="M 11.71875 59.71875  L 27.828125 67.578125  L 29.4375 67.578125  L 29.4375 11.671875  Q 29.4375 6.109375 29.90625 4.734375  Q 30.375 3.375 31.828125 2.640625  Q 33.296875 1.90625 37.796875 1.8125  L 37.796875 0  L 12.890625 0  L 12.890625 1.8125  Q 17.578125 1.90625 18.9375 2.609375  Q 20.3125 3.328125 20.84375 4.515625  Q 21.390625 5.71875 21.390625 11.671875  L 21.390625 47.40625  Q 21.390625 54.640625 20.90625 56.6875  Q 20.5625 58.25 19.65625 58.984375  Q 18.75 59.71875 17.484375 59.71875  Q 15.671875 59.71875 12.453125 58.203125  z "
+                   id="TimesNewRomanPSMT-49" />
+              </defs>
+              <use
+                 xlink:href="#TimesNewRomanPSMT-49"
+                 id="use64" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use65" />
+              <use
+                 x="100"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use66" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="xtick_9">
+          <g
+             id="line2d_9">
+            <g
+               id="g67">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="386.32"
+                 xlink:href="#m90e68be9c4"
+                 y="268.128"
+                 id="use67" />
+            </g>
+          </g>
+          <g
+             id="text_9">
+            <!-- 110 -->
+            <g
+               transform="translate(379.0075 282.07175)scale(0.1 -0.1)"
+               id="g70">
+              <use
+                 xlink:href="#TimesNewRomanPSMT-49"
+                 id="use68" />
+              <use
+                 x="46.25"
+                 xlink:href="#TimesNewRomanPSMT-49"
+                 id="use69" />
+              <use
+                 x="96.25"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use70" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="matplotlib.axis_2">
+        <g
+           id="ytick_1">
+          <g
+             id="line2d_10">
+            <defs
+               id="defs70">
+              <path
+                 d="M 0 0  L -3.5 0  "
+                 id="m37fea60315"
+                 style="stroke:#000000;stroke-width:0.8;" />
+            </defs>
+            <g
+               id="g71">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="29.2"
+                 xlink:href="#m37fea60315"
+                 y="268.128"
+                 id="use71" />
+            </g>
+          </g>
+          <g
+             id="text_10">
+            <!-- 0 -->
+            <g
+               transform="translate(17.2 271.599875)scale(0.1 -0.1)"
+               id="g72">
+              <use
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use72" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="ytick_2">
+          <g
+             id="line2d_11">
+            <g
+               id="g73">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="29.2"
+                 xlink:href="#m37fea60315"
+                 y="227.053148"
+                 id="use73" />
+            </g>
+          </g>
+          <g
+             id="text_11">
+            <!-- 20 -->
+            <g
+               transform="translate(12.2 230.525023)scale(0.1 -0.1)"
+               id="g75">
+              <defs
+                 id="defs73">
+                <path
+                   d="M 45.84375 12.75  L 41.21875 0  L 2.15625 0  L 2.15625 1.8125  Q 19.390625 17.53125 26.421875 27.484375  Q 33.453125 37.453125 33.453125 45.703125  Q 33.453125 52 29.59375 56.046875  Q 25.734375 60.109375 20.359375 60.109375  Q 15.484375 60.109375 11.59375 57.25  Q 7.71875 54.390625 5.859375 48.875  L 4.046875 48.875  Q 5.28125 57.90625 10.328125 62.734375  Q 15.375 67.578125 22.953125 67.578125  Q 31 67.578125 36.390625 62.40625  Q 41.796875 57.234375 41.796875 50.203125  Q 41.796875 45.171875 39.453125 40.140625  Q 35.84375 32.234375 27.734375 23.390625  Q 15.578125 10.109375 12.546875 7.375  L 29.828125 7.375  Q 35.109375 7.375 37.234375 7.765625  Q 39.359375 8.15625 41.0625 9.34375  Q 42.78125 10.546875 44.046875 12.75  z "
+                   id="TimesNewRomanPSMT-50" />
+              </defs>
+              <use
+                 xlink:href="#TimesNewRomanPSMT-50"
+                 id="use74" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use75" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="ytick_3">
+          <g
+             id="line2d_12">
+            <g
+               id="g76">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="29.2"
+                 xlink:href="#m37fea60315"
+                 y="185.978295"
+                 id="use76" />
+            </g>
+          </g>
+          <g
+             id="text_12">
+            <!-- 40 -->
+            <g
+               transform="translate(12.2 189.45017)scale(0.1 -0.1)"
+               id="g78">
+              <use
+                 xlink:href="#TimesNewRomanPSMT-52"
+                 id="use77" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use78" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="ytick_4">
+          <g
+             id="line2d_13">
+            <g
+               id="g79">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="29.2"
+                 xlink:href="#m37fea60315"
+                 y="144.903443"
+                 id="use79" />
+            </g>
+          </g>
+          <g
+             id="text_13">
+            <!-- 60 -->
+            <g
+               transform="translate(12.2 148.375318)scale(0.1 -0.1)"
+               id="g81">
+              <use
+                 xlink:href="#TimesNewRomanPSMT-54"
+                 id="use80" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use81" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="ytick_5">
+          <g
+             id="line2d_14">
+            <g
+               id="g82">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="29.2"
+                 xlink:href="#m37fea60315"
+                 y="103.82859"
+                 id="use82" />
+            </g>
+          </g>
+          <g
+             id="text_14">
+            <!-- 80 -->
+            <g
+               transform="translate(12.2 107.300465)scale(0.1 -0.1)"
+               id="g84">
+              <use
+                 xlink:href="#TimesNewRomanPSMT-56"
+                 id="use83" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use84" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="ytick_6">
+          <g
+             id="line2d_15">
+            <g
+               id="g85">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="29.2"
+                 xlink:href="#m37fea60315"
+                 y="62.753738"
+                 id="use85" />
+            </g>
+          </g>
+          <g
+             id="text_15">
+            <!-- 100 -->
+            <g
+               transform="translate(7.2 66.225613)scale(0.1 -0.1)"
+               id="g88">
+              <use
+                 xlink:href="#TimesNewRomanPSMT-49"
+                 id="use86" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use87" />
+              <use
+                 x="100"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use88" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="ytick_7">
+          <g
+             id="line2d_16">
+            <g
+               id="g89">
+              <use
+                 style="stroke:#000000;stroke-width:0.8;"
+                 x="29.2"
+                 xlink:href="#m37fea60315"
+                 y="21.678885"
+                 id="use89" />
+            </g>
+          </g>
+          <g
+             id="text_16">
+            <!-- 120 -->
+            <g
+               transform="translate(7.2 25.15076)scale(0.1 -0.1)"
+               id="g92">
+              <use
+                 xlink:href="#TimesNewRomanPSMT-49"
+                 id="use90" />
+              <use
+                 x="50"
+                 xlink:href="#TimesNewRomanPSMT-50"
+                 id="use91" />
+              <use
+                 x="100"
+                 xlink:href="#TimesNewRomanPSMT-48"
+                 id="use92" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="patch_43">
+        <path
+           d="M 29.2 268.128  L 29.2 7.2  "
+           style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"
+           id="path92" />
+      </g>
+      <g
+         id="patch_44">
+        <path
+           d="M 386.32 268.128  L 386.32 7.2  "
+           style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"
+           id="path93" />
+      </g>
+      <g
+         id="patch_45">
+        <path
+           d="M 29.2 268.128  L 386.32 268.128  "
+           style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"
+           id="path94" />
+      </g>
+      <g
+         id="patch_46">
+        <path
+           d="M 29.2 7.2  L 386.32 7.2  "
+           style="fill:none;stroke:#000000;stroke-linecap:square;stroke-linejoin:miter;stroke-width:0.8;"
+           id="path95" />
+      </g>
+      <g
+         id="legend_1">
+        <g
+           id="patch_47">
+          <path
+             d="M 287.323125 85.895312  L 379.32 85.895312  Q 381.32 85.895312 381.32 83.895312  L 381.32 14.2  Q 381.32 12.2 379.32 12.2  L 287.323125 12.2  Q 285.323125 12.2 285.323125 14.2  L 285.323125 83.895312  Q 285.323125 85.895312 287.323125 85.895312  z "
+             style="fill:#ffffff;opacity:0.8;stroke:#cccccc;stroke-linejoin:miter;"
+             id="path96" />
+        </g>
+        <g
+           id="patch_48">
+          <path
+             d="M 289.323125 23.2  L 309.323125 23.2  L 309.323125 16.2  L 289.323125 16.2  z "
+             style="fill:#1f77b4;"
+             id="path97" />
+        </g>
+        <g
+           id="text_17">
+          <!-- Compressional -->
+          <g
+             transform="translate(317.323125 23.2)scale(0.1 -0.1)"
+             id="g109">
+            <defs
+               id="defs97">
+              <path
+                 d="M 60.203125 67.71875  L 61.71875 45.21875  L 60.203125 45.21875  Q 57.171875 55.328125 51.5625 59.765625  Q 45.953125 64.203125 38.09375 64.203125  Q 31.5 64.203125 26.171875 60.859375  Q 20.84375 57.515625 17.796875 50.1875  Q 14.75 42.875 14.75 31.984375  Q 14.75 23 17.625 16.40625  Q 20.515625 9.8125 26.296875 6.296875  Q 32.078125 2.78125 39.5 2.78125  Q 45.953125 2.78125 50.875 5.53125  Q 55.8125 8.296875 61.71875 16.5  L 63.234375 15.53125  Q 58.25 6.6875 51.609375 2.578125  Q 44.96875 -1.515625 35.84375 -1.515625  Q 19.390625 -1.515625 10.359375 10.6875  Q 3.609375 19.78125 3.609375 32.078125  Q 3.609375 42 8.046875 50.296875  Q 12.5 58.59375 20.28125 63.15625  Q 28.078125 67.71875 37.3125 67.71875  Q 44.484375 67.71875 51.46875 64.203125  Q 53.515625 63.140625 54.390625 63.140625  Q 55.71875 63.140625 56.6875 64.0625  Q 57.953125 65.375 58.5 67.71875  z "
+                 id="TimesNewRomanPSMT-67" />
+              <path
+                 d="M 25 46.046875  Q 35.15625 46.046875 41.3125 38.328125  Q 46.53125 31.734375 46.53125 23.1875  Q 46.53125 17.1875 43.640625 11.03125  Q 40.765625 4.890625 35.71875 1.75  Q 30.671875 -1.375 24.46875 -1.375  Q 14.359375 -1.375 8.40625 6.6875  Q 3.375 13.484375 3.375 21.921875  Q 3.375 28.078125 6.421875 34.15625  Q 9.46875 40.234375 14.453125 43.140625  Q 19.4375 46.046875 25 46.046875  z M 23.484375 42.875  Q 20.90625 42.875 18.28125 41.328125  Q 15.671875 39.796875 14.0625 35.9375  Q 12.453125 32.078125 12.453125 26.03125  Q 12.453125 16.265625 16.328125 9.171875  Q 20.21875 2.09375 26.5625 2.09375  Q 31.296875 2.09375 34.375 6  Q 37.453125 9.90625 37.453125 19.4375  Q 37.453125 31.34375 32.328125 38.1875  Q 28.859375 42.875 23.484375 42.875  z "
+                 id="TimesNewRomanPSMT-111" />
+              <path
+                 d="M 16.40625 36.53125  Q 21.296875 41.40625 22.171875 42.140625  Q 24.359375 44 26.890625 45.015625  Q 29.4375 46.046875 31.9375 46.046875  Q 36.140625 46.046875 39.15625 43.59375  Q 42.1875 41.15625 43.21875 36.53125  Q 48.25 42.390625 51.703125 44.21875  Q 55.171875 46.046875 58.84375 46.046875  Q 62.40625 46.046875 65.15625 44.21875  Q 67.921875 42.390625 69.53125 38.234375  Q 70.609375 35.40625 70.609375 29.34375  L 70.609375 10.109375  Q 70.609375 5.90625 71.234375 4.34375  Q 71.734375 3.265625 73.046875 2.515625  Q 74.359375 1.765625 77.34375 1.765625  L 77.34375 0  L 55.28125 0  L 55.28125 1.765625  L 56.203125 1.765625  Q 59.078125 1.765625 60.6875 2.875  Q 61.8125 3.65625 62.3125 5.375  Q 62.5 6.203125 62.5 10.109375  L 62.5 29.34375  Q 62.5 34.8125 61.1875 37.0625  Q 59.28125 40.1875 55.078125 40.1875  Q 52.484375 40.1875 49.875 38.890625  Q 47.265625 37.59375 43.5625 34.078125  L 43.453125 33.546875  L 43.5625 31.453125  L 43.5625 10.109375  Q 43.5625 5.515625 44.0625 4.390625  Q 44.578125 3.265625 45.984375 2.515625  Q 47.40625 1.765625 50.828125 1.765625  L 50.828125 0  L 28.21875 0  L 28.21875 1.765625  Q 31.9375 1.765625 33.328125 2.640625  Q 34.71875 3.515625 35.25 5.28125  Q 35.5 6.109375 35.5 10.109375  L 35.5 29.34375  Q 35.5 34.8125 33.890625 37.203125  Q 31.734375 40.328125 27.875 40.328125  Q 25.25 40.328125 22.65625 38.921875  Q 18.609375 36.765625 16.40625 34.078125  L 16.40625 10.109375  Q 16.40625 5.71875 17.015625 4.390625  Q 17.625 3.078125 18.8125 2.421875  Q 20.015625 1.765625 23.6875 1.765625  L 23.6875 0  L 1.5625 0  L 1.5625 1.765625  Q 4.640625 1.765625 5.859375 2.421875  Q 7.078125 3.078125 7.703125 4.515625  Q 8.34375 5.953125 8.34375 10.109375  L 8.34375 27.203125  Q 8.34375 34.578125 7.90625 36.71875  Q 7.5625 38.328125 6.828125 38.9375  Q 6.109375 39.546875 4.828125 39.546875  Q 3.46875 39.546875 1.5625 38.8125  L 0.828125 40.578125  L 14.3125 46.046875  L 16.40625 46.046875  z "
+                 id="TimesNewRomanPSMT-109" />
+              <path
+                 d="M -0.09375 40.28125  L 13.671875 45.84375  L 15.53125 45.84375  L 15.53125 35.40625  Q 19 41.3125 22.484375 43.671875  Q 25.984375 46.046875 29.828125 46.046875  Q 36.578125 46.046875 41.0625 40.765625  Q 46.578125 34.328125 46.578125 23.96875  Q 46.578125 12.40625 39.9375 4.828125  Q 34.46875 -1.375 26.171875 -1.375  Q 22.5625 -1.375 19.921875 -0.34375  Q 17.96875 0.390625 15.53125 2.59375  L 15.53125 -11.03125  Q 15.53125 -15.625 16.09375 -16.859375  Q 16.65625 -18.109375 18.046875 -18.84375  Q 19.4375 -19.578125 23.09375 -19.578125  L 23.09375 -21.390625  L -0.34375 -21.390625  L -0.34375 -19.578125  L 0.875 -19.578125  Q 3.5625 -19.625 5.46875 -18.5625  Q 6.390625 -18.015625 6.90625 -16.8125  Q 7.421875 -15.625 7.421875 -10.75  L 7.421875 31.546875  Q 7.421875 35.890625 7.03125 37.0625  Q 6.640625 38.234375 5.78125 38.8125  Q 4.9375 39.40625 3.46875 39.40625  Q 2.296875 39.40625 0.484375 38.71875  z M 15.53125 32.515625  L 15.53125 15.828125  Q 15.53125 10.40625 15.96875 8.6875  Q 16.65625 5.859375 19.3125 3.703125  Q 21.96875 1.5625 26.03125 1.5625  Q 30.90625 1.5625 33.9375 5.375  Q 37.890625 10.359375 37.890625 19.390625  Q 37.890625 29.640625 33.40625 35.15625  Q 30.28125 38.96875 25.984375 38.96875  Q 23.640625 38.96875 21.34375 37.796875  Q 19.578125 36.921875 15.53125 32.515625  z "
+                 id="TimesNewRomanPSMT-112" />
+              <path
+                 d="M 16.21875 46.046875  L 16.21875 35.984375  Q 21.828125 46.046875 27.734375 46.046875  Q 30.421875 46.046875 32.171875 44.40625  Q 33.9375 42.78125 33.9375 40.625  Q 33.9375 38.71875 32.65625 37.390625  Q 31.390625 36.078125 29.640625 36.078125  Q 27.9375 36.078125 25.8125 37.765625  Q 23.6875 39.453125 22.65625 39.453125  Q 21.78125 39.453125 20.75 38.484375  Q 18.5625 36.46875 16.21875 31.890625  L 16.21875 10.453125  Q 16.21875 6.734375 17.140625 4.828125  Q 17.78125 3.515625 19.390625 2.640625  Q 21 1.765625 24.03125 1.765625  L 24.03125 0  L 1.125 0  L 1.125 1.765625  Q 4.546875 1.765625 6.203125 2.828125  Q 7.421875 3.609375 7.90625 5.328125  Q 8.15625 6.15625 8.15625 10.0625  L 8.15625 27.390625  Q 8.15625 35.203125 7.828125 36.6875  Q 7.515625 38.1875 6.65625 38.859375  Q 5.8125 39.546875 4.546875 39.546875  Q 3.03125 39.546875 1.125 38.8125  L 0.640625 40.578125  L 14.15625 46.046875  z "
+                 id="TimesNewRomanPSMT-114" />
+              <path
+                 d="M 10.640625 27.875  Q 10.59375 17.921875 15.484375 12.25  Q 20.359375 6.59375 26.953125 6.59375  Q 31.34375 6.59375 34.59375 9  Q 37.84375 11.421875 40.046875 17.28125  L 41.546875 16.3125  Q 40.53125 9.625 35.59375 4.125  Q 30.671875 -1.375 23.25 -1.375  Q 15.1875 -1.375 9.453125 4.90625  Q 3.71875 11.1875 3.71875 21.78125  Q 3.71875 33.25 9.59375 39.671875  Q 15.484375 46.09375 24.359375 46.09375  Q 31.890625 46.09375 36.71875 41.140625  Q 41.546875 36.1875 41.546875 27.875  z M 10.640625 30.71875  L 31.34375 30.71875  Q 31.109375 35.015625 30.328125 36.765625  Q 29.109375 39.5 26.6875 41.0625  Q 24.265625 42.625 21.625 42.625  Q 17.578125 42.625 14.375 39.46875  Q 11.1875 36.328125 10.640625 30.71875  z "
+                 id="TimesNewRomanPSMT-101" />
+              <path
+                 d="M 32.03125 46.046875  L 32.03125 30.8125  L 30.421875 30.8125  Q 28.5625 37.984375 25.65625 40.578125  Q 22.75 43.171875 18.265625 43.171875  Q 14.84375 43.171875 12.734375 41.359375  Q 10.640625 39.546875 10.640625 37.359375  Q 10.640625 34.625 12.203125 32.671875  Q 13.71875 30.671875 18.359375 28.421875  L 25.484375 24.953125  Q 35.40625 20.125 35.40625 12.203125  Q 35.40625 6.109375 30.78125 2.359375  Q 26.171875 -1.375 20.453125 -1.375  Q 16.359375 -1.375 11.078125 0.09375  Q 9.46875 0.59375 8.453125 0.59375  Q 7.328125 0.59375 6.6875 -0.6875  L 5.078125 -0.6875  L 5.078125 15.28125  L 6.6875 15.28125  Q 8.0625 8.453125 11.90625 4.984375  Q 15.765625 1.515625 20.5625 1.515625  Q 23.921875 1.515625 26.046875 3.484375  Q 28.171875 5.46875 28.171875 8.25  Q 28.171875 11.625 25.796875 13.921875  Q 23.4375 16.21875 16.359375 19.734375  Q 9.28125 23.25 7.078125 26.078125  Q 4.890625 28.859375 4.890625 33.109375  Q 4.890625 38.625 8.671875 42.328125  Q 12.453125 46.046875 18.453125 46.046875  Q 21.09375 46.046875 24.859375 44.921875  Q 27.34375 44.1875 28.171875 44.1875  Q 28.953125 44.1875 29.390625 44.53125  Q 29.828125 44.875 30.421875 46.046875  z "
+                 id="TimesNewRomanPSMT-115" />
+              <path
+                 d="M 14.5 69.4375  Q 16.546875 69.4375 17.984375 67.984375  Q 19.4375 66.546875 19.4375 64.5  Q 19.4375 62.453125 17.984375 60.984375  Q 16.546875 59.515625 14.5 59.515625  Q 12.453125 59.515625 10.984375 60.984375  Q 9.515625 62.453125 9.515625 64.5  Q 9.515625 66.546875 10.953125 67.984375  Q 12.40625 69.4375 14.5 69.4375  z M 18.5625 46.046875  L 18.5625 10.109375  Q 18.5625 5.90625 19.171875 4.515625  Q 19.78125 3.125 20.96875 2.4375  Q 22.171875 1.765625 25.34375 1.765625  L 25.34375 0  L 3.609375 0  L 3.609375 1.765625  Q 6.890625 1.765625 8 2.390625  Q 9.125 3.03125 9.78125 4.484375  Q 10.453125 5.953125 10.453125 10.109375  L 10.453125 27.34375  Q 10.453125 34.625 10.015625 36.765625  Q 9.671875 38.328125 8.9375 38.9375  Q 8.203125 39.546875 6.9375 39.546875  Q 5.5625 39.546875 3.609375 38.8125  L 2.9375 40.578125  L 16.40625 46.046875  z "
+                 id="TimesNewRomanPSMT-105" />
+              <path
+                 d="M 16.15625 36.578125  Q 24.03125 46.046875 31.15625 46.046875  Q 34.8125 46.046875 37.453125 44.21875  Q 40.09375 42.390625 41.65625 38.1875  Q 42.71875 35.25 42.71875 29.203125  L 42.71875 10.109375  Q 42.71875 5.859375 43.40625 4.34375  Q 43.953125 3.125 45.140625 2.4375  Q 46.34375 1.765625 49.5625 1.765625  L 49.5625 0  L 27.4375 0  L 27.4375 1.765625  L 28.375 1.765625  Q 31.5 1.765625 32.734375 2.703125  Q 33.984375 3.65625 34.46875 5.515625  Q 34.671875 6.25 34.671875 10.109375  L 34.671875 28.421875  Q 34.671875 34.515625 33.078125 37.28125  Q 31.5 40.046875 27.734375 40.046875  Q 21.921875 40.046875 16.15625 33.6875  L 16.15625 10.109375  Q 16.15625 5.5625 16.703125 4.5  Q 17.390625 3.078125 18.578125 2.421875  Q 19.78125 1.765625 23.4375 1.765625  L 23.4375 0  L 1.3125 0  L 1.3125 1.765625  L 2.296875 1.765625  Q 5.71875 1.765625 6.90625 3.484375  Q 8.109375 5.21875 8.109375 10.109375  L 8.109375 26.703125  Q 8.109375 34.765625 7.734375 36.515625  Q 7.375 38.28125 6.609375 38.90625  Q 5.859375 39.546875 4.59375 39.546875  Q 3.21875 39.546875 1.3125 38.8125  L 0.59375 40.578125  L 14.0625 46.046875  L 16.15625 46.046875  z "
+                 id="TimesNewRomanPSMT-110" />
+              <path
+                 d="M 28.46875 6.453125  Q 21.578125 1.125 19.828125 0.296875  Q 17.1875 -0.921875 14.203125 -0.921875  Q 9.578125 -0.921875 6.5625 2.25  Q 3.5625 5.421875 3.5625 10.59375  Q 3.5625 13.875 5.03125 16.265625  Q 7.03125 19.578125 11.984375 22.5  Q 16.9375 25.4375 28.46875 29.640625  L 28.46875 31.390625  Q 28.46875 38.09375 26.34375 40.578125  Q 24.21875 43.0625 20.171875 43.0625  Q 17.09375 43.0625 15.28125 41.40625  Q 13.421875 39.75 13.421875 37.59375  L 13.53125 34.765625  Q 13.53125 32.515625 12.375 31.296875  Q 11.234375 30.078125 9.375 30.078125  Q 7.5625 30.078125 6.421875 31.34375  Q 5.28125 32.625 5.28125 34.8125  Q 5.28125 39.015625 9.578125 42.53125  Q 13.875 46.046875 21.625 46.046875  Q 27.59375 46.046875 31.390625 44.046875  Q 34.28125 42.53125 35.640625 39.3125  Q 36.53125 37.203125 36.53125 30.71875  L 36.53125 15.53125  Q 36.53125 9.125 36.765625 7.6875  Q 37.015625 6.25 37.578125 5.765625  Q 38.140625 5.28125 38.875 5.28125  Q 39.65625 5.28125 40.234375 5.609375  Q 41.265625 6.25 44.1875 9.1875  L 44.1875 6.453125  Q 38.71875 -0.875 33.734375 -0.875  Q 31.34375 -0.875 29.921875 0.78125  Q 28.515625 2.4375 28.46875 6.453125  z M 28.46875 9.625  L 28.46875 26.65625  Q 21.09375 23.734375 18.953125 22.515625  Q 15.09375 20.359375 13.421875 18.015625  Q 11.765625 15.671875 11.765625 12.890625  Q 11.765625 9.375 13.859375 7.046875  Q 15.96875 4.734375 18.703125 4.734375  Q 22.40625 4.734375 28.46875 9.625  z "
+                 id="TimesNewRomanPSMT-97" />
+              <path
+                 d="M 18.5 69.4375  L 18.5 10.109375  Q 18.5 5.90625 19.109375 4.53125  Q 19.734375 3.171875 21 2.46875  Q 22.265625 1.765625 25.734375 1.765625  L 25.734375 0  L 3.8125 0  L 3.8125 1.765625  Q 6.890625 1.765625 8 2.390625  Q 9.125 3.03125 9.765625 4.484375  Q 10.40625 5.953125 10.40625 10.109375  L 10.40625 50.734375  Q 10.40625 58.296875 10.0625 60.03125  Q 9.71875 61.765625 8.953125 62.390625  Q 8.203125 63.03125 7.03125 63.03125  Q 5.765625 63.03125 3.8125 62.25  L 2.984375 63.96875  L 16.3125 69.4375  z "
+                 id="TimesNewRomanPSMT-108" />
+            </defs>
+            <use
+               xlink:href="#TimesNewRomanPSMT-67"
+               id="use97" />
+            <use
+               x="66.699219"
+               xlink:href="#TimesNewRomanPSMT-111"
+               id="use98" />
+            <use
+               x="116.699219"
+               xlink:href="#TimesNewRomanPSMT-109"
+               id="use99" />
+            <use
+               x="194.482422"
+               xlink:href="#TimesNewRomanPSMT-112"
+               id="use100" />
+            <use
+               x="244.482422"
+               xlink:href="#TimesNewRomanPSMT-114"
+               id="use101" />
+            <use
+               x="277.783203"
+               xlink:href="#TimesNewRomanPSMT-101"
+               id="use102" />
+            <use
+               x="322.167969"
+               xlink:href="#TimesNewRomanPSMT-115"
+               id="use103" />
+            <use
+               x="361.083984"
+               xlink:href="#TimesNewRomanPSMT-115"
+               id="use104" />
+            <use
+               x="400"
+               xlink:href="#TimesNewRomanPSMT-105"
+               id="use105" />
+            <use
+               x="427.783203"
+               xlink:href="#TimesNewRomanPSMT-111"
+               id="use106" />
+            <use
+               x="477.783203"
+               xlink:href="#TimesNewRomanPSMT-110"
+               id="use107" />
+            <use
+               x="527.783203"
+               xlink:href="#TimesNewRomanPSMT-97"
+               id="use108" />
+            <use
+               x="572.167969"
+               xlink:href="#TimesNewRomanPSMT-108"
+               id="use109" />
+          </g>
+        </g>
+        <g
+           id="patch_49">
+          <path
+             d="M 289.323125 37.339062  L 309.323125 37.339062  L 309.323125 30.339062  L 289.323125 30.339062  z "
+             style="fill:#ff7f0e;"
+             id="path109" />
+        </g>
+        <g
+           id="text_18">
+          <!-- Cratonic -->
+          <g
+             transform="translate(317.323125 37.339062)scale(0.1 -0.1)"
+             id="g117">
+            <defs
+               id="defs109">
+              <path
+                 d="M 16.109375 59.421875  L 16.109375 44.734375  L 26.5625 44.734375  L 26.5625 41.3125  L 16.109375 41.3125  L 16.109375 12.3125  Q 16.109375 7.953125 17.359375 6.4375  Q 18.609375 4.9375 20.5625 4.9375  Q 22.171875 4.9375 23.6875 5.9375  Q 25.203125 6.9375 26.03125 8.890625  L 27.9375 8.890625  Q 26.21875 4.109375 23.09375 1.6875  Q 19.96875 -0.734375 16.65625 -0.734375  Q 14.40625 -0.734375 12.25 0.515625  Q 10.109375 1.765625 9.078125 4.078125  Q 8.0625 6.390625 8.0625 11.234375  L 8.0625 41.3125  L 0.984375 41.3125  L 0.984375 42.921875  Q 3.65625 44 6.46875 46.5625  Q 9.28125 49.125 11.46875 52.640625  Q 12.59375 54.5 14.59375 59.421875  z "
+                 id="TimesNewRomanPSMT-116" />
+              <path
+                 d="M 41.109375 17  Q 39.3125 8.15625 34.03125 3.390625  Q 28.765625 -1.375 22.359375 -1.375  Q 14.75 -1.375 9.078125 5.015625  Q 3.421875 11.421875 3.421875 22.3125  Q 3.421875 32.859375 9.6875 39.453125  Q 15.96875 46.046875 24.75 46.046875  Q 31.34375 46.046875 35.59375 42.546875  Q 39.84375 39.0625 39.84375 35.296875  Q 39.84375 33.453125 38.640625 32.296875  Q 37.453125 31.15625 35.296875 31.15625  Q 32.421875 31.15625 30.953125 33.015625  Q 30.125 34.03125 29.859375 36.90625  Q 29.59375 39.796875 27.875 41.3125  Q 26.171875 42.78125 23.140625 42.78125  Q 18.265625 42.78125 15.28125 39.15625  Q 11.328125 34.375 11.328125 26.515625  Q 11.328125 18.5 15.25 12.375  Q 19.1875 6.25 25.875 6.25  Q 30.671875 6.25 34.46875 9.515625  Q 37.15625 11.765625 39.703125 17.671875  z "
+                 id="TimesNewRomanPSMT-99" />
+            </defs>
+            <use
+               xlink:href="#TimesNewRomanPSMT-67"
+               id="use110" />
+            <use
+               x="66.699219"
+               xlink:href="#TimesNewRomanPSMT-114"
+               id="use111" />
+            <use
+               x="100"
+               xlink:href="#TimesNewRomanPSMT-97"
+               id="use112" />
+            <use
+               x="144.384766"
+               xlink:href="#TimesNewRomanPSMT-116"
+               id="use113" />
+            <use
+               x="172.167969"
+               xlink:href="#TimesNewRomanPSMT-111"
+               id="use114" />
+            <use
+               x="222.167969"
+               xlink:href="#TimesNewRomanPSMT-110"
+               id="use115" />
+            <use
+               x="272.167969"
+               xlink:href="#TimesNewRomanPSMT-105"
+               id="use116" />
+            <use
+               x="299.951172"
+               xlink:href="#TimesNewRomanPSMT-99"
+               id="use117" />
+          </g>
+        </g>
+        <g
+           id="patch_50">
+          <path
+             d="M 289.323125 51.478125  L 309.323125 51.478125  L 309.323125 44.478125  L 289.323125 44.478125  z "
+             style="fill:#2ca02c;"
+             id="path117" />
+        </g>
+        <g
+           id="text_19">
+          <!-- Extensional -->
+          <g
+             transform="translate(317.323125 51.478125)scale(0.1 -0.1)"
+             id="g128">
+            <defs
+               id="defs117">
+              <path
+                 d="M 20.90625 62.59375  L 20.90625 36.421875  L 35.453125 36.421875  Q 41.109375 36.421875 43.015625 38.140625  Q 45.5625 40.375 45.84375 46.046875  L 47.65625 46.046875  L 47.65625 23  L 45.84375 23  Q 45.171875 27.828125 44.484375 29.203125  Q 43.609375 30.90625 41.59375 31.875  Q 39.59375 32.859375 35.453125 32.859375  L 20.90625 32.859375  L 20.90625 11.03125  Q 20.90625 6.640625 21.296875 5.6875  Q 21.6875 4.734375 22.65625 4.171875  Q 23.640625 3.609375 26.375 3.609375  L 37.59375 3.609375  Q 43.21875 3.609375 45.75 4.390625  Q 48.296875 5.171875 50.640625 7.46875  Q 53.65625 10.5 56.84375 16.609375  L 58.796875 16.609375  L 53.078125 0  L 2.046875 0  L 2.046875 1.8125  L 4.390625 1.8125  Q 6.734375 1.8125 8.84375 2.9375  Q 10.40625 3.71875 10.96875 5.28125  Q 11.53125 6.84375 11.53125 11.671875  L 11.53125 54.6875  Q 11.53125 60.984375 10.25 62.453125  Q 8.5 64.40625 4.390625 64.40625  L 2.046875 64.40625  L 2.046875 66.21875  L 53.078125 66.21875  L 53.8125 51.703125  L 51.90625 51.703125  Q 50.875 56.9375 49.625 58.890625  Q 48.390625 60.84375 45.953125 61.859375  Q 44 62.59375 39.0625 62.59375  z "
+                 id="TimesNewRomanPSMT-69" />
+              <path
+                 d="M 1.3125 44.734375  L 22.359375 44.734375  L 22.359375 42.921875  Q 20.359375 42.921875 19.546875 42.234375  Q 18.75 41.546875 18.75 40.4375  Q 18.75 39.265625 20.453125 36.8125  Q 21 36.03125 22.078125 34.375  L 25.25 29.296875  L 28.90625 34.375  Q 32.421875 39.203125 32.421875 40.484375  Q 32.421875 41.5 31.59375 42.203125  Q 30.765625 42.921875 28.90625 42.921875  L 28.90625 44.734375  L 44.046875 44.734375  L 44.046875 42.921875  Q 41.65625 42.78125 39.890625 41.609375  Q 37.5 39.9375 33.34375 34.375  L 27.25 26.21875  L 38.375 10.203125  Q 42.484375 4.296875 44.234375 3.09375  Q 46 1.90625 48.78125 1.765625  L 48.78125 0  L 27.6875 0  L 27.6875 1.765625  Q 29.890625 1.765625 31.109375 2.734375  Q 32.03125 3.421875 32.03125 4.546875  Q 32.03125 5.671875 28.90625 10.203125  L 22.359375 19.78125  L 15.1875 10.203125  Q 11.859375 5.765625 11.859375 4.9375  Q 11.859375 3.765625 12.953125 2.8125  Q 14.0625 1.859375 16.265625 1.765625  L 16.265625 0  L 1.65625 0  L 1.65625 1.765625  Q 3.421875 2 4.734375 2.984375  Q 6.59375 4.390625 10.984375 10.203125  L 20.359375 22.65625  L 11.859375 34.96875  Q 8.25 40.234375 6.265625 41.578125  Q 4.296875 42.921875 1.3125 42.921875  z "
+                 id="TimesNewRomanPSMT-120" />
+            </defs>
+            <use
+               xlink:href="#TimesNewRomanPSMT-69"
+               id="use118" />
+            <use
+               x="61.083984"
+               xlink:href="#TimesNewRomanPSMT-120"
+               id="use119" />
+            <use
+               x="111.083984"
+               xlink:href="#TimesNewRomanPSMT-116"
+               id="use120" />
+            <use
+               x="138.867188"
+               xlink:href="#TimesNewRomanPSMT-101"
+               id="use121" />
+            <use
+               x="183.251953"
+               xlink:href="#TimesNewRomanPSMT-110"
+               id="use122" />
+            <use
+               x="233.251953"
+               xlink:href="#TimesNewRomanPSMT-115"
+               id="use123" />
+            <use
+               x="272.167969"
+               xlink:href="#TimesNewRomanPSMT-105"
+               id="use124" />
+            <use
+               x="299.951172"
+               xlink:href="#TimesNewRomanPSMT-111"
+               id="use125" />
+            <use
+               x="349.951172"
+               xlink:href="#TimesNewRomanPSMT-110"
+               id="use126" />
+            <use
+               x="399.951172"
+               xlink:href="#TimesNewRomanPSMT-97"
+               id="use127" />
+            <use
+               x="444.335938"
+               xlink:href="#TimesNewRomanPSMT-108"
+               id="use128" />
+          </g>
+        </g>
+        <g
+           id="patch_51">
+          <path
+             d="M 289.323125 65.617188  L 309.323125 65.617188  L 309.323125 58.617188  L 289.323125 58.617188  z "
+             style="fill:#d62728;"
+             id="path128" />
+        </g>
+        <g
+           id="text_20">
+          <!-- Foreland -->
+          <g
+             transform="translate(317.323125 65.617188)scale(0.1 -0.1)"
+             id="g136">
+            <defs
+               id="defs128">
+              <path
+                 d="M 20.453125 62.59375  L 20.453125 36.578125  L 32.515625 36.578125  Q 36.671875 36.578125 38.59375 38.40625  Q 40.53125 40.234375 41.15625 45.65625  L 42.96875 45.65625  L 42.96875 23.25  L 41.15625 23.25  Q 41.109375 27.09375 40.15625 28.90625  Q 39.203125 30.71875 37.515625 31.609375  Q 35.84375 32.515625 32.515625 32.515625  L 20.453125 32.515625  L 20.453125 11.71875  Q 20.453125 6.6875 21.09375 5.078125  Q 21.578125 3.859375 23.140625 2.984375  Q 25.296875 1.8125 27.640625 1.8125  L 30.03125 1.8125  L 30.03125 0  L 1.609375 0  L 1.609375 1.8125  L 3.953125 1.8125  Q 8.0625 1.8125 9.90625 4.203125  Q 11.078125 5.765625 11.078125 11.71875  L 11.078125 54.5  Q 11.078125 59.515625 10.453125 61.140625  Q 9.96875 62.359375 8.453125 63.234375  Q 6.34375 64.40625 3.953125 64.40625  L 1.609375 64.40625  L 1.609375 66.21875  L 50.875 66.21875  L 51.515625 51.65625  L 49.8125 51.65625  Q 48.53125 56.296875 46.84375 58.46875  Q 45.171875 60.640625 42.703125 61.609375  Q 40.234375 62.59375 35.0625 62.59375  z "
+                 id="TimesNewRomanPSMT-70" />
+              <path
+                 d="M 34.71875 5.03125  Q 31.453125 1.609375 28.328125 0.109375  Q 25.203125 -1.375 21.578125 -1.375  Q 14.265625 -1.375 8.796875 4.75  Q 3.328125 10.890625 3.328125 20.515625  Q 3.328125 30.125 9.375 38.109375  Q 15.4375 46.09375 24.953125 46.09375  Q 30.859375 46.09375 34.71875 42.328125  L 34.71875 50.59375  Q 34.71875 58.25 34.34375 60  Q 33.984375 61.765625 33.203125 62.390625  Q 32.421875 63.03125 31.25 63.03125  Q 29.984375 63.03125 27.875 62.25  L 27.25 63.96875  L 40.578125 69.4375  L 42.78125 69.4375  L 42.78125 17.71875  Q 42.78125 9.859375 43.140625 8.125  Q 43.5 6.390625 44.3125 5.703125  Q 45.125 5.03125 46.1875 5.03125  Q 47.515625 5.03125 49.703125 5.859375  L 50.25 4.15625  L 36.96875 -1.375  L 34.71875 -1.375  z M 34.71875 8.453125  L 34.71875 31.5  Q 34.421875 34.8125 32.953125 37.546875  Q 31.5 40.28125 29.078125 41.671875  Q 26.65625 43.0625 24.359375 43.0625  Q 20.0625 43.0625 16.703125 39.203125  Q 12.25 34.125 12.25 24.359375  Q 12.25 14.5 16.546875 9.25  Q 20.84375 4 26.125 4  Q 30.5625 4 34.71875 8.453125  z "
+                 id="TimesNewRomanPSMT-100" />
+            </defs>
+            <use
+               xlink:href="#TimesNewRomanPSMT-70"
+               id="use129" />
+            <use
+               x="55.615234"
+               xlink:href="#TimesNewRomanPSMT-111"
+               id="use130" />
+            <use
+               x="105.615234"
+               xlink:href="#TimesNewRomanPSMT-114"
+               id="use131" />
+            <use
+               x="138.916016"
+               xlink:href="#TimesNewRomanPSMT-101"
+               id="use132" />
+            <use
+               x="183.300781"
+               xlink:href="#TimesNewRomanPSMT-108"
+               id="use133" />
+            <use
+               x="211.083984"
+               xlink:href="#TimesNewRomanPSMT-97"
+               id="use134" />
+            <use
+               x="255.46875"
+               xlink:href="#TimesNewRomanPSMT-110"
+               id="use135" />
+            <use
+               x="305.46875"
+               xlink:href="#TimesNewRomanPSMT-100"
+               id="use136" />
+          </g>
+        </g>
+        <g
+           id="patch_52">
+          <path
+             d="M 289.323125 79.75625  L 309.323125 79.75625  L 309.323125 72.75625  L 289.323125 72.75625  z "
+             style="fill:#9467bd;"
+             id="path136" />
+        </g>
+        <g
+           id="text_21">
+          <!-- Strike-slip -->
+          <g
+             transform="translate(317.323125 79.75625)scale(0.1 -0.1)"
+             id="g147">
+            <defs
+               id="defs136">
+              <path
+                 d="M 45.84375 67.71875  L 45.84375 44.828125  L 44.046875 44.828125  Q 43.171875 51.421875 40.890625 55.328125  Q 38.625 59.234375 34.421875 61.515625  Q 30.21875 63.8125 25.734375 63.8125  Q 20.65625 63.8125 17.328125 60.71875  Q 14.015625 57.625 14.015625 53.65625  Q 14.015625 50.640625 16.109375 48.140625  Q 19.140625 44.484375 30.515625 38.375  Q 39.796875 33.40625 43.1875 30.734375  Q 46.578125 28.078125 48.40625 24.453125  Q 50.25 20.84375 50.25 16.890625  Q 50.25 9.375 44.40625 3.921875  Q 38.578125 -1.515625 29.390625 -1.515625  Q 26.515625 -1.515625 23.96875 -1.078125  Q 22.46875 -0.828125 17.703125 0.703125  Q 12.9375 2.25 11.671875 2.25  Q 10.453125 2.25 9.734375 1.515625  Q 9.03125 0.78125 8.6875 -1.515625  L 6.890625 -1.515625  L 6.890625 21.1875  L 8.6875 21.1875  Q 9.96875 14.0625 12.109375 10.515625  Q 14.265625 6.984375 18.671875 4.640625  Q 23.09375 2.296875 28.375 2.296875  Q 34.46875 2.296875 38 5.515625  Q 41.546875 8.734375 41.546875 13.140625  Q 41.546875 15.578125 40.203125 18.0625  Q 38.875 20.5625 36.03125 22.703125  Q 34.125 24.171875 25.625 28.921875  Q 17.140625 33.6875 13.546875 36.515625  Q 9.96875 39.359375 8.109375 42.765625  Q 6.25 46.1875 6.25 50.296875  Q 6.25 57.421875 11.71875 62.5625  Q 17.1875 67.71875 25.640625 67.71875  Q 30.90625 67.71875 36.8125 65.140625  Q 39.546875 63.921875 40.671875 63.921875  Q 41.9375 63.921875 42.75 64.671875  Q 43.5625 65.4375 44.046875 67.71875  z "
+                 id="TimesNewRomanPSMT-83" />
+              <path
+                 d="M 16.359375 69.4375  L 16.359375 24.90625  L 27.734375 35.296875  Q 31.34375 38.625 31.9375 39.5  Q 32.328125 40.09375 32.328125 40.671875  Q 32.328125 41.65625 31.515625 42.359375  Q 30.71875 43.0625 28.859375 43.171875  L 28.859375 44.734375  L 48.296875 44.734375  L 48.296875 43.171875  Q 44.28125 43.0625 41.625 41.9375  Q 38.96875 40.828125 35.796875 37.9375  L 24.3125 27.34375  L 35.796875 12.84375  Q 40.578125 6.84375 42.234375 5.21875  Q 44.578125 2.9375 46.34375 2.25  Q 47.5625 1.765625 50.59375 1.765625  L 50.59375 0  L 28.859375 0  L 28.859375 1.765625  Q 30.71875 1.8125 31.375 2.3125  Q 32.03125 2.828125 32.03125 3.765625  Q 32.03125 4.890625 30.078125 7.375  L 16.359375 24.90625  L 16.359375 10.0625  Q 16.359375 5.71875 16.96875 4.34375  Q 17.578125 2.984375 18.703125 2.390625  Q 19.828125 1.8125 23.578125 1.765625  L 23.578125 0  L 0.828125 0  L 0.828125 1.765625  Q 4.25 1.765625 5.953125 2.59375  Q 6.984375 3.125 7.515625 4.25  Q 8.25 5.859375 8.25 9.8125  L 8.25 50.53125  Q 8.25 58.296875 7.90625 60.03125  Q 7.5625 61.765625 6.78125 62.421875  Q 6 63.09375 4.734375 63.09375  Q 3.71875 63.09375 1.65625 62.25  L 0.828125 63.96875  L 14.109375 69.4375  z "
+                 id="TimesNewRomanPSMT-107" />
+              <path
+                 d="M 4.046875 26.125  L 29.296875 26.125  L 29.296875 18.75  L 4.046875 18.75  z "
+                 id="TimesNewRomanPSMT-45" />
+            </defs>
+            <use
+               xlink:href="#TimesNewRomanPSMT-83"
+               id="use137" />
+            <use
+               x="55.615234"
+               xlink:href="#TimesNewRomanPSMT-116"
+               id="use138" />
+            <use
+               x="83.398438"
+               xlink:href="#TimesNewRomanPSMT-114"
+               id="use139" />
+            <use
+               x="116.699219"
+               xlink:href="#TimesNewRomanPSMT-105"
+               id="use140" />
+            <use
+               x="144.482422"
+               xlink:href="#TimesNewRomanPSMT-107"
+               id="use141" />
+            <use
+               x="194.482422"
+               xlink:href="#TimesNewRomanPSMT-101"
+               id="use142" />
+            <use
+               x="238.867188"
+               xlink:href="#TimesNewRomanPSMT-45"
+               id="use143" />
+            <use
+               x="272.167969"
+               xlink:href="#TimesNewRomanPSMT-115"
+               id="use144" />
+            <use
+               x="311.083984"
+               xlink:href="#TimesNewRomanPSMT-108"
+               id="use145" />
+            <use
+               x="338.867188"
+               xlink:href="#TimesNewRomanPSMT-105"
+               id="use146" />
+            <use
+               x="366.650391"
+               xlink:href="#TimesNewRomanPSMT-112"
+               id="use147" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <defs
+     id="defs147">
+    <clipPath
+       id="pdb92424b9e">
+      <rect
+         height="260.928"
+         width="357.12"
+         x="29.2"
+         y="7.2"
+         id="rect147" />
+    </clipPath>
+  </defs>
+</svg>
