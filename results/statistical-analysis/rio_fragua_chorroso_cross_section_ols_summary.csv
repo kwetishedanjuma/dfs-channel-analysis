@@ -1,0 +1,3 @@
+System,Climate_Zone,Analysis_Type,Dependent_Variable,R_squared,Adj_R_squared,F_statistic,P_value_F,Log_Likelihood,AIC,BIC,N_Observations,Const_Coef,Const_StdErr,Const_t,Const_P,Segment_Coef,Segment_StdErr,Segment_t,Segment_P
+Rio Fragua Chorroso,Tropical,Channel Belt vs Wetted Channel,channelBelt,0.074,0.025,1.507,0.235,-16.719,37.44,39.53,21,0.8510,0.238,3.582,0.002,-0.0050,0.004,-1.228,0.235
+Rio Fragua Chorroso,Tropical,Channel Belt vs Wetted Channel,wettedChannel,0.474,0.447,17.15,0.000554,24.925,-45.85,-43.76,21,0.1151,0.033,3.518,0.002,0.0023,0.001,4.142,0.001
