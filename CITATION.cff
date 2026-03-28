@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code, workflow, or methodology in your research, please cite the associated article and dataset."
+title: "Distributive Fluvial Systems Channel Analysis"
+version: "1.0.0"
+authors:
+  - family-names: "Danjuma"
+    given-names: "Kwetishe Joro"
+    orcid: "https://orcid.org/0000-0001-7605-9285"
+  - family-names: "Owen"
+    given-names: "Amanda"
+  - family-names: "Dalton"
+    given-names: "Tobias"
+  - family-names: "Williams"
+    given-names: "Richard"
+  - family-names: "Boothroyd"
+    given-names: "Richard"
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Danjuma"
+      given-names: "Kwetishe Joro"
+      orcid: "https://orcid.org/0000-0001-7605-9285"
+    - family-names: "Owen"
+      given-names: "Amanda"
+    - family-names: "Dalton"
+      given-names: "Tobias"
+    - family-names: "Williams"
+      given-names: "Richard"
+    - family-names: "Boothroyd"
+      given-names: "Richard"
+  title: "Quantitative analysis of channel characteristics of distributive fluvial systems"
+  journal: "Sedimentology"
+  year: 2026
+  doi: "10.1111/sed.70105"
+
+references:
+  - type: dataset
+    authors:
+      - family-names: "Danjuma"
+        given-names: "Kwetishe Joro"
+        orcid: "https://orcid.org/0000-0001-7605-9285"
+    title: "Quantitative analysis of channel characteristics of distributive fluvial systems: supporting dataset"
+    repository: "Zenodo"
+    version: "1.0"
+    doi: "10.5281/zenodo.XXXXXXX"
