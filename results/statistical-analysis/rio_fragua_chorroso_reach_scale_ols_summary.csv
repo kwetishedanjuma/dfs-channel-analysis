@@ -1,0 +1,5 @@
+System,Climate_Zone,Environment,Dependent_Variable,R_squared,Adj_R_squared,F_statistic,P_value_F,Log_Likelihood,AIC,BIC,N_Observations,Const_Coef,Const_StdErr,Const_t,Const_P,Segment_Coef,Segment_StdErr,Segment_t,Segment_P
+Rio Fragua Chorroso,Tropical,Bar Complex,bar,0.404,0.368,11.50,0.00347,-42.269,88.54,90.43,19,6.0780,1.130,5.378,0.000,-0.0672,0.020,-3.391,0.003
+Rio Fragua Chorroso,Tropical,Wetted Channel,waterArea,0.457,0.425,14.33,0.00148,-5.7368,15.47,17.36,19,0.9489,0.165,5.743,0.000,0.0110,0.003,3.785,0.001
+Rio Fragua Chorroso,Tropical,Vegetated Bar,vegetationArea,0.397,0.361,11.18,0.00384,-38.878,81.76,83.64,19,4.5719,0.945,4.836,0.000,-0.0555,0.017,-3.344,0.004
+Rio Fragua Chorroso,Tropical,Unvegetated Bar,sedimentArea,0.289,0.247,6.904,0.0176,-14.000,32.00,33.89,19,1.5061,0.255,5.901,0.000,-0.0118,0.004,-2.628,0.018
