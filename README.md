@@ -136,10 +136,16 @@ This methodology enables:
 
 ## Citation
 
-If you use this code or methodology in your research, please cite:
+If you use this code, workflow, or methodology in your research, please cite:
 
 ```
-[Your Paper Citation Here]
+Danjuma, K.J., Owen, A., Dalton, T., Williams, R., & Boothroyd, R. (2026).
+Quantitative analysis of channel characteristics of distributive fluvial systems.
+Sedimentology. https://doi.org/10.1111/sed.70105
+
+Dataset:
+Danjuma, K.J. (2025). Quantitative analysis of channel characteristics of distributive fluvial systems: supporting dataset.
+Zenodo. Version 1.0. https://doi.org/10.5281/zenodo.XXXXXXX
 ```
 
 ## License
@@ -150,7 +156,7 @@ This project is licensed under the LICENSE-CC-BY-4.0 License - see the [LICENSE-
 
 - Sentinel-2 imagery courtesy of ESA Copernicus Programme
 - SRTM data courtesy of NASA/USGS
-- ArcticDEM courtesy of Polar Geospatial Center
+- ArcticDEM courtesy of Polar Geospatial Centre
 - Modern DFS database from Hartley et al.
 
 ## Contact
