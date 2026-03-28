@@ -55,7 +55,7 @@ dfs-channel-analysis/
 ├── .gitignore                 # Version control exclusions
 │
 ├── code/                      # Analysis code and workflows
-│   ├── arcgis-tools/          # ArcGIS Pro tools for manual digitization
+│   ├── arcgis-tools/          # ArcGIS Pro tools for manual digitisation
 │   ├── config/                # System-specific configuration and parameters
 │   ├── dfs-database-analysis/ # Site selection and database analysis scripts
 │   ├── google-earth-engine/   # Data acquisition utilities (e.g., GEE scripts)
@@ -114,7 +114,7 @@ pip install -r requirements.txt
 - ✅ **Systematic Multi-Scale Analysis** - Consistent methodology across all systems
 - ✅ **Climate Zone Representation** - Five major climate zones covered
 - ✅ **Reproducible Workflow** - Complete documentation and code
-- ✅ **Publication Quality** - Scientific visualisation with colorblind-friendly palettes from paul Tol's Notes
+- ✅ **Publication Quality** - Scientific visualisation with colourblind-friendly palettes from Paul Tol's Notes
 - ✅ **Manual Digitisation Focus** - High-precision feature mapping without tiny slivers or gaps between polygons 
 - ✅ **Statistical Rigor** - OLS regression with significance testing
 
@@ -123,7 +123,7 @@ pip install -r requirements.txt
 ### Core Analysis
 - Python 3.8+ with scientific packages (pandas, numpy, matplotlib, scipy)
 - Jupyter Notebook for interactive analysis
-- SciencePlots for publication-quality visualization
+- SciencePlots for publication-quality visualisation
 
 ### Geospatial Processing
 - ArcGIS Pro with Spatial Analyst extension
@@ -161,10 +161,14 @@ This project is licensed under the LICENSE-CC-BY-4.0 License - see the [LICENSE-
 
 ## Acknowledgments
 
-- Sentinel-2 imagery courtesy of ESA Copernicus Programme
-- SRTM data courtesy of NASA/USGS
-- ArcticDEM courtesy of Polar Geospatial Centre
-- Modern DFS database from Hartley et al.
+- Sentinel‑2 imagery courtesy of the ESA Copernicus Programme  
+- SRTM data courtesy of NASA/USGS  
+- ArcticDEM courtesy of the Polar Geospatial Centre  
+- Modern DFS database from Hartley et al. (2010):
+
+  Hartley, A.J., Weissmann, G.S., Nichols, G.J. & Warwick, G.L. (2010).  
+  *Large Distributive Fluvial Systems: Characteristics, Distribution, and Controls on Development.*  
+  Journal of Sedimentary Research, 80(2), 167–183. https://doi.org/10.2110/jsr.2010.016
 
 ## Contact
 
