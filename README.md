@@ -3,9 +3,9 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 ![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0001--7605--9285-brightgreen.svg)](https://orcid.org/0000-0001-7605-9285)
-![GitHub last commit](https://img.shields.io/github/last-commit/kwetishedanjuma/dfs-channel-analysis)
-![GitHub repo size](https://img.shields.io/github/repo-size/kwetishedanjuma/dfs-channel-analysis)
-![GitHub issues](https://img.shields.io/github/issues/kwetishedanjuma/dfs-channel-analysis)
+![GitHub last commit](https://img.shields.io/github/last-commit/kwetishedanjuma/dfs-channel-analysis.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/kwetishedanjuma/dfs-channel-analysis.svg)
+![GitHub issues](https://img.shields.io/github/issues/kwetishedanjuma/dfs-channel-analysis.svg)
 
 <!-- Zenodo DOI badge (update once DOI is minted) -->
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
