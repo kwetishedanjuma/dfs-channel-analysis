@@ -6,9 +6,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/kwetishedanjuma/dfs-channel-analysis.svg)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kwetishedanjuma/dfs-channel-analysis.svg)
 ![GitHub issues](https://img.shields.io/github/issues/kwetishedanjuma/dfs-channel-analysis.svg)
-
-<!-- Zenodo DOI badge (update once DOI is minted) -->
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19319578.svg)](https://doi.org/10.5281/zenodo.19319578)
 
 ## Overview
 
