@@ -144,13 +144,14 @@ This methodology enables:
 If you use this code, workflow, or methodology in your research, please cite:
 
 ```
-Danjuma, K.J., Owen, A., Dalton, T., Williams, R., & Boothroyd, R. (2026).
+Danjuma, K.J., Owen, A., Dalton, T., Williams, R. and Boothroyd, R. (2026)
 Quantitative analysis of channel characteristics of distributive fluvial systems.
 Sedimentology. https://doi.org/10.1111/sed.70105
 
 Dataset:
-Danjuma, K.J. (2025). Quantitative analysis of channel characteristics of distributive fluvial systems: supporting dataset.
-Zenodo. Version 1.0. https://doi.org/10.5281/zenodo.XXXXXXX
+[dataset] Danjuma, K.J., Owen, A., Dalton, T., Williams, R. and Boothroyd, R. (2026)
+Quantitative analysis of channel characteristics of distributive fluvial systems.
+Zenodo. Version v1.0.1. https://doi.org/10.5281/zenodo.19319578
 ```
 
 ## License
